@@ -102,6 +102,7 @@ Therefore:
 - [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro) _SIL OFL_ ([view](https://www.programmingfonts.org/#anonymous-pro))
 - [APL2741](http://apl385.com/fonts/index.htm) _public domain_ ([view](https://www.programmingfonts.org/#apl2741))
 - [APL385](http://apl385.com/fonts/index.htm) _public domain_ ([view](https://www.programmingfonts.org/#apl385))
+- [Atkinson Hyperlegible Mono](https://www.brailleinstitute.org/freefont/) _SIL OFL_ ([view](https://www.programmingfonts.org/#atkinson-hyperlegible))
 - [AudioLink Mono](https://audiolink.dev) _SIL OFL_ ([view](https://www.programmingfonts.org/#audio-link))
 - [Aurulent Sans Mono](https://www.fontsquirrel.com/fonts/Aurulent-Sans-Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#aurulent))
 - [Average Mono](http://openfontlibrary.org/en/font/average-mono) _GNU GPL_ ([view](https://www.programmingfonts.org/#average))

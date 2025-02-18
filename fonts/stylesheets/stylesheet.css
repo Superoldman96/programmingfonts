@@ -77,6 +77,30 @@
   src: url('../resources/apl385/apl385.ttf');
 }
 @font-face {
+  font-family: 'atkinson-hyperlegible';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/atkinson-hyperlegible/atkinson-hyperlegible-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'atkinson-hyperlegible';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/atkinson-hyperlegible/atkinson-hyperlegible-bold.woff2');
+}
+@font-face {
+  font-family: 'atkinson-hyperlegible';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/atkinson-hyperlegible/atkinson-hyperlegible-italic.woff2');
+}
+@font-face {
+  font-family: 'atkinson-hyperlegible';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/atkinson-hyperlegible/atkinson-hyperlegible.woff2');
+}
+@font-face {
   font-family: 'audio-link';
   font-weight: bold;
   font-style: normal;
