@@ -11,3 +11,6 @@ test:
 
 fonts/stylesheets/stylesheet.css: fonts/stylesheets/fonts.less
 	npx lessc $^ $@
+
+list:
+	python3 listing.py
