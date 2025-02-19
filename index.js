@@ -279,4 +279,25 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     }
   })
+
+  document.getElementById('compare-button').onclick = (event) => {
+    event.preventDefault()
+    event.stopPropagation()
+
+    const cm = event.target.closest('.codemirror-wrapper')
+
+    const clone = cm.cloneNode(true)
+    const button = clone.querySelector('#compare-button')
+    button.setAttribute('id', 'close-button')
+    button.innerText = 'Close'
+    button.onclick = (event) => {
+      event.preventDefault()
+      event.stopPropagation()
+      clone.remove()
+      cm.querySelector('#compare-button').removeAttribute('disabled')
+    }
+
+    cm.querySelector('#compare-button').setAttribute('disabled', true)
+    cm.parentNode.appendChild(clone)
+  }
 })

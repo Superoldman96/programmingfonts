@@ -148,6 +148,10 @@ a:active {
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
+
+    ~ .codemirror-wrapper {
+        margin-left: 0;
+    }
 }
 
 .info-wrapper {
@@ -190,6 +194,16 @@ a:active {
         font-size: 8px;
         color: var(--medium-grey);
         text-transform: uppercase;
+    }
+
+    .text-button {
+        position: absolute;
+        top: 1em;
+        right: 1.4em;
+
+        @media screen and (max-width: 56em) {
+            display: none;
+        }
     }
 }
 main {
@@ -451,6 +465,17 @@ button {
     &:not(.selected) > svg:not(:first-child),
     &.selected > svg:not(.selected) {
         display: none;
+    }
+
+    &:disabled {
+        color: var(--paper-white);
+        background: var(--light-grey);
+    }
+
+    &.text-button {
+        width: auto;
+        margin: 0;
+        padding: 0 .5ex;
     }
 }
 
