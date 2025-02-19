@@ -149,6 +149,10 @@ a:active {
 .codemirror-wrapper {
     flex: 1;
     position: relative;
+    margin: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
 .info-wrapper {
@@ -315,14 +319,15 @@ section.select-list {
         font-size: 10px;
         color: var(--paper-white);
         transition: all .2s ease-in-out;
-    }
-    a.website svg {
-        position: relative;
-        top: 2px;
-    }
-    a.website span {
-        display: inline-block;
-        padding-right: 1ex;
+        
+        svg {
+            position: relative;
+            top: 2px;
+        }
+        span {
+            display: inline-block;
+            padding-right: 1ex;
+        }
     }
     a.favoritelink {
         position: absolute;
