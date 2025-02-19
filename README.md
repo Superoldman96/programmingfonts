@@ -5,11 +5,15 @@ Test drive programming fonts [online in your browser](https://www.programmingfon
 
 ProgrammingFonts.org makes it easier to find monospaced fonts. All fonts in one place, with proper credits towards the creators. It's not a download portal, we don't track anything, it's strictly by nerds and designers for nerds and designers.
 
+## 10th Anniversay Edition 🎂
+
+Now featuring side by side comparison, and more code samples!
+
 ## Buy me a coffee
 
 ☕️👌🏻
 
-This website is powered by coffee. No ads, no tracking, no monetization. We do have some costs for domain name. And coffee. Gallons of coffee.
+This website is powered by coffee. No ads, no tracking, no monetization. We do have some costs for the domain name however.
 Please feel free to make a little [donation via PayPal](https://paypal.me/koenlageveen) to keep this labour of love running. It's much appreciated!
 
 ## Project layout / contributing
