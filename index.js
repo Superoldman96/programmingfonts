@@ -284,9 +284,14 @@ window.addEventListener('DOMContentLoaded', () => {
     event.preventDefault()
     event.stopPropagation()
 
-    const cm = event.target.closest('.codemirror-wrapper')
+    const original = event.target.closest('.codemirror-wrapper')
+    const parent = original.parentNode
 
-    const clone = cm.cloneNode(true)
+    parent.querySelector('.clone')?.remove()
+
+    const clone = original.cloneNode(true)
+    clone.classList.add('clone')
+
     const button = clone.querySelector('#compare-button')
     button.setAttribute('id', 'close-button')
     button.innerText = 'Close'
@@ -294,10 +299,8 @@ window.addEventListener('DOMContentLoaded', () => {
       event.preventDefault()
       event.stopPropagation()
       clone.remove()
-      cm.querySelector('#compare-button').removeAttribute('disabled')
     }
 
-    cm.querySelector('#compare-button').setAttribute('disabled', true)
-    cm.parentNode.appendChild(clone)
+    parent.appendChild(clone)
   }
 })
