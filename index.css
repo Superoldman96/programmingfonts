@@ -87,7 +87,7 @@ body {
     display: flex;
     height: 100%;
     min-height: 100%;
-    background: var(--paper-white);
+    background: var(--bright-grey);
     color: var(--ink-black);
 }
 h1 {
@@ -138,12 +138,7 @@ a:active {
     float: left;
     position: relative;
     z-index: 2;
-    border-right: 1px solid var(--medium-grey);
     overflow: hidden;
-
-    @media (prefers-color-scheme: dark) {
-        border-right-color: var(--paper-white);
-    }
 }
 
 .codemirror-wrapper {
@@ -216,7 +211,6 @@ section.config {
     grid-template-columns: auto auto auto auto;
     padding: 8px;
     font-size: 10px;
-    background: var(--bright-grey);
 }
 
 section#filters {
@@ -317,7 +311,7 @@ section.select-list {
         right: 32px;
         padding: 0 4px;
         font-size: 10px;
-        color: var(--paper-white);
+        color: var(--medium-grey);
         transition: all .2s ease-in-out;
         
         svg {
@@ -327,13 +321,18 @@ section.select-list {
         span {
             display: inline-block;
             padding-right: 1ex;
+            opacity: 0;
+            transition: opacity .2s ease-in-out;
+        }
+        &:hover span {
+            opacity: 1;
         }
     }
     a.favoritelink {
         position: absolute;
         top: 8px;
         right: 8px;
-        color: var(--paper-white);
+        color: var(--medium-grey);
         cursor: pointer;
     }
     .entry:not(.pinned) a.favoritelink svg {
@@ -343,7 +342,7 @@ section.select-list {
     }
     .entry:hover a.website,
     .entry:hover a.favoritelink {
-        color: var(--bright-grey);
+        color: var(--dark-grey);
     }
     .entry:hover a.favoritelink:hover,
     a.favoritelink:hover {
