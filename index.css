@@ -327,7 +327,7 @@ section.select-list {
         font-size: 10px;
         color: var(--medium-grey);
         transition: all .2s ease-in-out;
-        
+
         svg {
             position: relative;
             top: 2px;
@@ -444,7 +444,7 @@ button {
     background: linear-gradient(var(--bright-white), var(--light-grey));
     color: var(--medium-grey);
     cursor: pointer;
-    
+
     @media (prefers-color-scheme: dark) {
         background: linear-gradient(var(--light-grey), var(--bright-white));
     }

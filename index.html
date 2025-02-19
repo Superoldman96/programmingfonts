@@ -253,23 +253,26 @@
                     <label for="select-language" class="screenreader-only">Language</label>
                     <select id="select-language">
                         <option>None</option>
-                        <option selected="">JavaScript</option>
-                        <option value="clike">C (-like)</option>
                         <option>CSS</option>
                         <option>Go</option>
-                        <option>Haskell</option>
-                        <option value="commonlisp">Common Lisp</option>
-                        <option>Clojure</option>
+                        <option>JavaScript</option>
                         <option>PHP</option>
-                        <option>Pascal</option>
-                        <option>Perl</option>
-                        <option>Python</option>
-                        <option>R</option>
-                        <option>Ruby</option>
-                        <option>Rust</option>
+                        <option selected="selected">Python</option>
                         <option>Shell</option>
-                        <option>Swift</option>
-                        <option>XML</option>
+
+                        <optgroup label="Without sample">
+                            <option value="clike">C (-like)</option>
+                            <option>Haskell</option>
+                            <option value="commonlisp">Common Lisp</option>
+                            <option>Clojure</option>
+                            <option>Pascal</option>
+                            <option>Perl</option>
+                            <option>R</option>
+                            <option>Ruby</option>
+                            <option>Rust</option>
+                            <option>Swift</option>
+                            <option>XML</option>
+                        </optgroup>
                     </select>
                 </p>
             </section>
@@ -308,34 +311,7 @@
     <div class="codemirror-wrapper">
         <form>
             <label for="code" class="screenreader-only">Code area</label>
-                <textarea id="code" name="code">
-// Type some code ->
-
-const similar = "oO08 iIlL1 g9qCGQ"
-const diacritics_etc = "â é ù ï ø ç Ã Ē Æ œ"
-
-window.toggleFavorite = (alias) => {
-    try {
-        let favorites = JSON.parse(localStorage.getItem('favorites')) || []
-        if (favorites.indexOf(alias) > -1) {
-            favorites = favorites.filter((v) => {
-                return v !== alias
-            })
-        } else {
-            favorites.push(alias)
-        }
-        localStorage.setItem('favorites', JSON.stringify(Array.from(new Set(favorites))))
-    } catch (err) {
-        // eslint-disable-next-line no-console
-        console.error('could not save favorite', err)
-    }
-    renderSelectList()
-    return false
-}
-
-
-
-            </textarea>
+            <textarea id="code" name="code"></textarea>
         </form>
         <aside class="info-wrapper">
             <h2><a href=""></a></h2>
