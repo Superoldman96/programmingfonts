@@ -284,7 +284,7 @@ section.select-list {
         position: relative;
         padding: 8px 12px;
     }
-    .entry:hover::before {
+    .entry:has(a:hover)::before {
         transition: background .2s ease-in-out, left .1s ease-in-out, right .1s ease-in-out;
     }
     .entry:not(:first-child)::before {
@@ -298,7 +298,7 @@ section.select-list {
         pointer-events: none;
         z-index: -1;
     }
-    .entry:hover::before,
+    .entry:has(a:hover)::before,
     .entry.active::before {
         content: '';
         display: block;
@@ -313,7 +313,7 @@ section.select-list {
         z-index: -1;
         background: var(--bright-white);
     }
-    .entry:hover + .entry:not(:first-child)::before,
+    .entry:has(a:hover) + .entry:not(:first-child)::before,
     .entry.active + .entry:not(:first-child)::before {
         border-top: none;
     }
@@ -329,10 +329,6 @@ section.select-list {
         width: 66.67%;
         position: relative;
         overflow: hidden;
-    }
-    a:hover .name,
-    a:active .name {
-        text-decoration: underline;
     }
     .entry.active .name {
         font-weight: bold;
