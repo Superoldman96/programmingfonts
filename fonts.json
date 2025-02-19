@@ -141,7 +141,7 @@
         "name": "Azeret Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": "A variable font, available in various weights.",
+        "variants": "A variable font in 8 weights, each with italics.",
         "website": "https://github.com/displaay/Azeret",
         "year": 2020,
         "zerostyle": "empty"
@@ -318,7 +318,7 @@
         "name": "Chivo Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": "A variable font ranging from Thin to Black with matching Italics",
+        "variants": "A variable font in 9 weights, each with italics.",
         "website": "https://www.omnibus-type.com/variable-fonts/#chivo-mono",
         "year": 2022,
         "zerostyle": "empty"
@@ -607,23 +607,7 @@
         "name": "Drafting* Mono",
         "rendering": "vector",
         "style": "serif",
-        "variants": [
-            "thin",
-            "thin-italic",
-            "extralight",
-            "extralight-italic",
-            "light",
-            "light-italic",
-            "medium",
-            "medium-italic",
-            "semibold",
-            "semibold-italic",
-            "bold",
-            "bold-italic",
-            "regular",
-            "italic",
-            "variable"
-        ],
+        "variants": "A variable font in 7 weights, each with italics.",
         "website": "https://indestructibletype.com/Drafting/",
         "year": 2021,
         "zerostyle": "dotted"
@@ -913,7 +897,7 @@
         "name": "Geist",
         "rendering": "vector",
         "style": "sans",
-        "variants": "A variable font, delivered in 9 weights but no true italics.",
+        "variants": "A variable font in 9 weights, without italics.",
         "website": "https://vercel.com/font/mono",
         "year": 2023,
         "zerostyle": "slashed"
@@ -1100,17 +1084,7 @@
         "name": "Inconsolata",
         "rendering": "vector",
         "style": "sans",
-        "variants": [
-            "black",
-            "bold",
-            "extrabold",
-            "extralight",
-            "light",
-            "medium",
-            "regular",
-            "semibold",
-            "variable"
-        ],
+        "variants": "A variable font in 9 weights, without italics.",
         "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
         "zerostyle": "slashed"
@@ -1283,7 +1257,7 @@
         "name": "League Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": "League Mono is a variable font and can be downloaded in dozens of weights and widths, but no italics.",
+        "variants": "A variable font in 40 weights, without italics.",
         "website": "https://www.tylerfinck.com/leaguemono/",
         "year": 2017,
         "zerostyle": "dotted"
@@ -1593,7 +1567,7 @@
         "name": "MonoLisa",
         "rendering": "vector",
         "style": "sans",
-        "variants": "9 weights with italics, a variable version, and OpenType alternatives for slashed zeroes, ligatures, etc.",
+        "variants": "A variable font in 9 weights, each with italics. Various OpenType alternatives for slashed zeroes, ligatures, etc.",
         "website": "https://www.monolisa.dev",
         "year": 2022,
         "zerostyle": "dotted"
@@ -1904,17 +1878,7 @@
         "name": "Red Hat Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": [
-            "light",
-            "light-italic",
-            "medium",
-            "medium-italic",
-            "bold",
-            "bold-italic",
-            "regular",
-            "italic",
-            "variable"
-        ],
+        "variants": "A variable font in 4 weights, each with italics.",
         "website": "https://www.redhat.com/en/about/brand/standards/typography",
         "year": 2019,
         "zerostyle": "slashed"
@@ -1927,7 +1891,7 @@
         "name": "Roboto Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": "Five weights with matching italics.",
+        "variants": "5 weights, each with italics.",
         "website": "https://www.google.com/fonts/specimen/Roboto+Mono",
         "year": 2015,
         "zerostyle": "slashed"
@@ -2049,7 +2013,7 @@
         "name": "Sono",
         "rendering": "vector",
         "style": "sans",
-        "variants": "A variable font available as 7 separate weights. No italics.",
+        "variants": "A variable font in 7 weights, without italics.",
         "website": "https://etceteratype.co/sono",
         "year": 2020,
         "zerostyle": "dotted"
@@ -2062,7 +2026,7 @@
         "name": "Source Code Pro",
         "rendering": "vector",
         "style": "sans",
-        "variants": "A variable font that can be downloaded in 7 weights plus italics.",
+        "variants": "A variable font in 7 weights, each with italics.",
         "website": "https://github.com/adobe-fonts/source-code-pro",
         "year": 2012,
         "zerostyle": "dotted"
