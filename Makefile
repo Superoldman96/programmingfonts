@@ -16,4 +16,5 @@ list:
 	python3 listing.py
 
 serve:
+	open "http://localhost:8000"
 	python3 -m http.server
