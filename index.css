@@ -63,16 +63,7 @@ html {
     --light-grey: #E0E0E0;
     --bright-grey: #ECECEC;
 
-    height: 100%;
-    min-height: 100%;
-    font-family: 'ui-font', sans-serif;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    background: var(--paper-white);
-}
-@media (prefers-color-scheme: dark) {
-    html {
+    @media (prefers-color-scheme: dark) {
         --bright-white: #111;
         --paper-white: #1F1F1F;
 
@@ -82,6 +73,14 @@ html {
         --light-grey: #333;
         --bright-grey: #2A2A2A;
     }
+
+    height: 100%;
+    min-height: 100%;
+    font-family: 'ui-font', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    background: var(--paper-white);
 }
 
 body {
@@ -114,6 +113,7 @@ a:active {
     text-decoration: none;
     color: inherit;
 }
+
 .screenreader-only {
     width: 1px;
     height: 1px;
@@ -122,12 +122,15 @@ a:active {
     left: -999px;
     overflow:hidden
 }
+
 .no-smooth {
     -webkit-font-smoothing: none;
 }
+
 .octicon {
     fill: currentColor;
 }
+
 .main-wrapper {
     width: 28em;
     height: 100%;
@@ -137,16 +140,17 @@ a:active {
     z-index: 2;
     border-right: 1px solid var(--medium-grey);
     overflow: hidden;
-}
-@media (prefers-color-scheme: dark) {
-    .main-wrapper {
+
+    @media (prefers-color-scheme: dark) {
         border-right-color: var(--paper-white);
     }
 }
+
 .codemirror-wrapper {
     flex: 1;
     position: relative;
 }
+
 .info-wrapper {
     position: absolute;
     bottom: 1rem;
@@ -159,37 +163,35 @@ a:active {
     border-radius: 3px;
     background: var(--bright-grey);
     color: var(--dark-grey);
-}
-@media screen and (max-width: 56em) {
-    .info-wrapper {
+
+    @media screen and (max-width: 56em) {
         bottom: 2rem;
     }
-}
-@media screen and (max-height: 24em)  {
-    .info-wrapper {
+    @media screen and (max-height: 24em)  {
         display: none;
     }
-}
-.info-wrapper a:hover {
-    color: var(--ink-black);
-    text-decoration: underline;
-}
-.info-wrapper p {
-    line-height: 14px;
-}
-.info-wrapper p:empty {
-    display: none;
-}
-.info-wrapper p.variants::before {
-    content: 'Variants: ';
-    font-style: italic;
-}
-.info-wrapper h2::after {
-    content: attr(data-license);
-    margin-left: 1ex;
-    font-size: 8px;
-    color: var(--medium-grey);
-    text-transform: uppercase;
+
+    a:hover {
+        color: var(--ink-black);
+        text-decoration: underline;
+    }
+    p {
+        line-height: 14px;
+    }
+    p:empty {
+        display: none;
+    }
+    p.variants::before {
+        content: 'Variants: ';
+        font-style: italic;
+    }
+    h2::after {
+        content: attr(data-license);
+        margin-left: 1ex;
+        font-size: 8px;
+        color: var(--medium-grey);
+        text-transform: uppercase;
+    }
 }
 main {
     display: flex;
@@ -239,129 +241,130 @@ section.select-list {
     flex: 1;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    &:focus {
+        outline: none;
+    }
+    > * {
+        overflow: hidden;
+    }
+    [data-style='serif'] .name {
+        font-family: 'ui-font-serif', serif;
+    }
+    .entry {
+        position: relative;
+        padding: 8px 12px;
+    }
+    .entry:hover::before {
+        transition: background .2s ease-in-out, left .1s ease-in-out, right .1s ease-in-out;
+    }
+    .entry:not(:first-child)::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 6px;
+        right: 6px;
+        border-top: 1px solid var(--light-grey);
+        pointer-events: none;
+        z-index: -1;
+    }
+    .entry:hover::before,
+    .entry.active::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 4px;
+        left: 4px;
+        border: 1px solid var(--light-grey);
+        border-radius: 3px;
+        pointer-events: none;
+        z-index: -1;
+        background: var(--bright-white);
+    }
+    .entry:hover + .entry:not(:first-child)::before,
+    .entry.active + .entry:not(:first-child)::before {
+        border-top: none;
+    }
+    .entry > a {
+        display: block;
+        flex: 1;
+    }
+    .entry.filtered-out {
+        display: none;
+    }
+    a[data-value] {
+        display: block;
+        width: 66.67%;
+        position: relative;
+        overflow: hidden;
+    }
+    a:hover .name,
+    a:active .name {
+        text-decoration: underline;
+    }
+    .entry.active .name {
+        font-weight: bold;
+    }
+    a.website {
+        position: absolute;
+        top: 6px;
+        right: 32px;
+        padding: 0 4px;
+        font-size: 10px;
+        color: var(--paper-white);
+        transition: all .2s ease-in-out;
+    }
+    a.website svg {
+        position: relative;
+        top: 2px;
+    }
+    a.website span {
+        display: inline-block;
+        padding-right: 1ex;
+    }
+    a.favoritelink {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        color: var(--paper-white);
+        cursor: pointer;
+    }
+    .entry:not(.pinned) a.favoritelink svg {
+        fill: transparent;
+        stroke: currentColor;
+        stroke-width: 1;
+    }
+    .entry:hover a.website,
+    .entry:hover a.favoritelink {
+        color: var(--bright-grey);
+    }
+    .entry:hover a.favoritelink:hover,
+    a.favoritelink:hover {
+        color: var(--ink-black);
+    }
+    .entry.active a.website,
+    .entry.active a.favoritelink {
+        color: var(--dark-grey);
+    }
+    .entry a.website:hover,
+    .entry.pinned a.favoritelink {
+        color: var(--ink-black);
+    }
+    .pinned {
+        background: var(--paper-white);
+    }
+    .details {
+        display: block;
+        font-size: 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        color: var(--ink-black);
+    }
 }
-section.select-list:focus {
-    outline: none;
-}
-section.select-list > * {
-    overflow: hidden;
-}
-section.select-list [data-style='serif'] .name {
-    font-family: 'ui-font-serif', serif;
-}
-section.select-list .entry {
-    position: relative;
-    padding: 8px 12px;
-}
-section.select-list .entry:hover::before {
-    transition: background .2s ease-in-out, left .1s ease-in-out, right .1s ease-in-out;
-}
-section.select-list .entry:not(:first-child)::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 6px;
-    right: 6px;
-    border-top: 1px solid var(--light-grey);
-    pointer-events: none;
-    z-index: -1;
-}
-section.select-list .entry:hover::before,
-section.select-list .entry.active::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 4px;
-    left: 4px;
-    border: 1px solid var(--light-grey);
-    border-radius: 3px;
-    pointer-events: none;
-    z-index: -1;
-    background: var(--bright-white);
-}
-section.select-list .entry:hover + .entry:not(:first-child)::before,
-section.select-list .entry.active + .entry:not(:first-child)::before {
-    border-top: none;
-}
-section.select-list .entry > a {
-    display: block;
-    flex: 1;
-}
-section.select-list .entry.filtered-out {
-    display: none;
-}
-section.select-list a[data-value] {
-    display: block;
-    width: 66.67%;
-    position: relative;
-    overflow: hidden;
-}
-section.select-list a:hover .name,
-section.select-list a:active .name {
-    text-decoration: underline;
-}
-section.select-list .entry.active .name {
-    font-weight: bold;
-}
-section.select-list a.website {
-    position: absolute;
-    top: 6px;
-    right: 32px;
-    padding: 0 4px;
-    font-size: 10px;
-    color: var(--paper-white);
-    transition: all .2s ease-in-out;
-}
-section.select-list a.website svg {
-    position: relative;
-    top: 2px;
-}
-section.select-list a.website span {
-    display: inline-block;
-    padding-right: 1ex;
-}
-section.select-list a.favoritelink {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    color: var(--paper-white);
-    cursor: pointer;
-}
-section.select-list .entry:not(.pinned) a.favoritelink svg {
-    fill: transparent;
-    stroke: currentColor;
-    stroke-width: 1;
-}
-section.select-list .entry:hover a.website,
-section.select-list .entry:hover a.favoritelink {
-    color: var(--bright-grey);
-}
-section.select-list .entry:hover a.favoritelink:hover,
-section.select-list a.favoritelink:hover {
-    color: var(--ink-black);
-}
-section.select-list .entry.active a.website,
-section.select-list .entry.active a.favoritelink {
-    color: var(--dark-grey);
-}
-section.select-list .entry a.website:hover,
-section.select-list .entry.pinned a.favoritelink {
-    color: var(--ink-black);
-}
-section.select-list .pinned {
-    background: var(--paper-white);
-}
-section.select-list .details {
-    display: block;
-    font-size: 10px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    color: var(--ink-black);
-}
+
 footer {
     padding: 0 8px 4px 8px;
     font-size: 10px;
@@ -369,19 +372,38 @@ footer {
     line-height: 20px;
     background: var(--bright-grey);
     color: var(--medium-grey);
-}
-footer h1 + p {
-    font-style: italic;
-}
-footer a:hover,
-footer a:active {
-    text-decoration: underline;
-    color: var(--ink-black);
-}
-footer p a,
-footer p a:link,
-footer p a:visited {
-    text-decoration: underline;
+    h1 + p {
+        font-style: italic;
+    }
+    a:hover,
+    a:active {
+        text-decoration: underline;
+        color: var(--ink-black);
+    }
+    p a,
+    p a:link,
+    p a:visited {
+        text-decoration: underline;
+    }
+
+    .logo,
+    .support {
+        display: inline-block;
+        position: absolute;
+        bottom: 4px;
+        left: 8px;
+        opacity: .5;
+    }
+    .logo svg path {
+        fill: currentColor;
+    }
+    .logo * + * {
+        margin-left: 8px;
+    }
+    .support {
+        right: 8px;
+        left: auto;
+    }
 }
 
 label {
@@ -404,28 +426,30 @@ button {
     background: linear-gradient(var(--bright-white), var(--light-grey));
     color: var(--medium-grey);
     cursor: pointer;
-}
-@media (prefers-color-scheme: dark) {
-    button {
+    
+    @media (prefers-color-scheme: dark) {
         background: linear-gradient(var(--light-grey), var(--bright-white));
     }
+
+    path,
+    rect {
+        fill: currentColor;
+    }
+
+    &:hover {
+        color: var(--ink-black);
+    }
+    &.selected {
+        background: var(--bright-white);
+        color: var(--ink-black);
+        box-shadow: none;
+    }
+    &:not(.selected) > svg:not(:first-child),
+    &.selected > svg:not(.selected) {
+        display: none;
+    }
 }
-button:hover {
-    color: var(--ink-black);
-}
-button.selected {
-    background: var(--bright-white);
-    color: var(--ink-black);
-    box-shadow: none;
-}
-button path,
-button rect {
-    fill: currentColor;
-}
-button:not(.selected) > svg:not(:first-child),
-button.selected > svg:not(.selected) {
-    display: none;
-}
+
 select {
     all: unset;
     width: 9em;
@@ -437,11 +461,13 @@ select {
     overflow: hidden;
     text-overflow: ellipsis;
     cursor: pointer;
+
+    option {
+        background: var(--light-white);
+        color: var(--ink-black);
+    }
 }
-select option {
-    background: var(--light-white);
-    color: var(--ink-black);
-}
+
 input[type='text'] {
     line-height: 12px;
 }
@@ -466,6 +492,7 @@ select:focus {
     border-color: var(--medium-grey);
     background: var(--paper-white);
 }
+
 pre,
 textarea,
 .CodeMirror {
@@ -486,6 +513,7 @@ form {
 label + .nav-button {
     margin-left: .5ex;
 }
+
 .CodeMirror {
     height: 100%;
     min-height: 100%;
@@ -494,12 +522,13 @@ label + .nav-button {
     background: transparent;
     box-shadow: none !important;
     text-rendering: optimizeLegibility;
-}
-.CodeMirror .cm-atom {
-    font-style: italic;
-}
-.CodeMirror .cm-comment {
-    font-weight: bold;
+
+    .cm-atom {
+        font-style: italic;
+    }
+    .cm-comment {
+        font-weight: bold;
+    }
 }
 .CodeMirror-gutters {
     background: transparent;
@@ -508,24 +537,6 @@ label + .nav-button {
     -webkit-overflow-scrolling: touch;
 }
 
-footer .logo,
-footer .support {
-    display: inline-block;
-    position: absolute;
-    bottom: 4px;
-    left: 8px;
-    opacity: .5;
-}
-footer .logo svg path {
-    fill: currentColor;
-}
-footer .logo * + * {
-    margin-left: 8px;
-}
-footer .support {
-    right: 8px;
-    left: auto;
-}
 
 @media screen and (max-width: 56em) {
     body {
