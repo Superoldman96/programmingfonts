@@ -301,6 +301,9 @@ window.addEventListener('DOMContentLoaded', () => {
       clone.remove()
     }
 
+    clone.querySelector('#code').setAttribute('id', 'clone-code')
+    clone.querySelector('[for=code]').setAttribute('for', 'clone-code')
+
     parent.appendChild(clone)
   }
 })
