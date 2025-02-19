@@ -152,6 +152,24 @@ a:active {
     ~ .codemirror-wrapper {
         margin-left: 0;
     }
+
+    &.clone .CodeMirror {
+        /* freeze the cloned codemirror instance because it's dead and scrolls weird */
+        pointer-events: none;
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+        }
+        * {
+            overflow: hidden !important;
+        }
+    }
 }
 
 .info-wrapper {
