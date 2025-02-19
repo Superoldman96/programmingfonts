@@ -14,3 +14,6 @@ fonts/stylesheets/stylesheet.css: fonts/stylesheets/fonts.less
 
 list:
 	python3 listing.py
+
+serve:
+	python3 -m http.server
