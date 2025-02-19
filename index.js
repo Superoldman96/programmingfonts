@@ -37,7 +37,7 @@ function getFont () {
   }
 
   if (!font) {
-    font = 'monolisa'
+    font = 'atkinson-hyperlegible'
   }
 
   return font
