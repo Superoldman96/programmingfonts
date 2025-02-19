@@ -87,7 +87,7 @@ body {
     display: flex;
     height: 100%;
     min-height: 100%;
-    background: var(--bright-grey);
+    background: var(--paper-white);
     color: var(--ink-black);
 }
 h1 {
@@ -181,7 +181,7 @@ a:active {
     padding: 1em 1.4em;
     font-size: 10px;
     border: 1px solid var(--light-grey);
-    border-radius: 3px;
+    border-radius: 6px;
     background: var(--bright-grey);
     color: var(--dark-grey);
 
@@ -243,12 +243,15 @@ section.config {
     grid-template-columns: auto auto auto auto;
     padding: 8px;
     font-size: 10px;
+    border: 1px solid var(--light-grey);
+    border-radius: 6px;
+    background: var(--bright-grey);
 }
 
 section#filters {
     align-items: stretch;
     grid-template-columns: auto auto auto auto auto;
-    border-bottom: 1px solid var(--light-grey);
+    margin: 6px 0 2px 4px;
 }
 section#filters input,
 section#filters select {
@@ -260,7 +263,7 @@ section#filters > div {
 }
 
 section.config {
-    border-top: 1px solid var(--light-grey);
+    margin: 2px 0 6px 4px;
 }
 section.config > * {
     text-align: center;
@@ -271,6 +274,8 @@ section.select-list {
     flex: 1;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    background: var(--paper-white);
+
     &:focus {
         outline: none;
     }
@@ -283,6 +288,7 @@ section.select-list {
     .entry {
         position: relative;
         padding: 8px 12px;
+        z-index: 0;
     }
     .entry:has(a:hover)::before {
         transition: background .2s ease-in-out, left .1s ease-in-out, right .1s ease-in-out;
@@ -402,7 +408,7 @@ footer {
     font-size: 10px;
     text-align: center;
     line-height: 20px;
-    background: var(--bright-grey);
+    background: var(--paper-white);
     color: var(--medium-grey);
     h1 + p {
         font-style: italic;
