@@ -3,7 +3,7 @@ import { Samples } from './samples.js'
 
 export class Language {
   el = document.getElementById('select-language')
-  samples = new Samples
+  samples = new Samples()
 
   init () {
     if (Cookies.get('language')) {

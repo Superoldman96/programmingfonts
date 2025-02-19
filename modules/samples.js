@@ -1,3 +1,4 @@
+/* eslint-disable semi, no-useless-escape, no-multiple-empty-lines, no-tabs */
 export class Samples {
   get (lang) {
     let code = ''
