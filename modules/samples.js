@@ -1,4 +1,4 @@
-/* eslint-disable semi, no-useless-escape, no-multiple-empty-lines, no-tabs */
+/* eslint-disable semi, no-useless-escape, no-tabs */
 export class Samples {
   get (lang) {
     let code = ''
@@ -77,7 +77,6 @@ fi
 # adapted from https://github.com/SublimeText/Terminal
 `
 
-
 const Py =
 `import os
 import sublime
@@ -110,7 +109,6 @@ class SideBarDuplicateCommand(SideBarCommand):
         input_panel.sel().add(
             sublime.Region(len(base) + 1, len(source) - len(ext))
 `
-
 
 const PHP =
 `<?php
