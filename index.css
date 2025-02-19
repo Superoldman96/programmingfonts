@@ -252,6 +252,10 @@ section#filters {
     align-items: stretch;
     grid-template-columns: auto auto auto auto auto;
     margin: 6px 0 2px 4px;
+
+    @media screen and (max-width: 56em) {
+        margin-right: 4px;
+    }
 }
 section#filters input,
 section#filters select {
@@ -264,6 +268,10 @@ section#filters > div {
 
 section.config {
     margin: 2px 0 6px 4px;
+
+    @media screen and (max-width: 56em) {
+        margin-right: 4px;
+    }
 }
 section.config > * {
     text-align: center;
