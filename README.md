@@ -82,7 +82,7 @@ Some bitmap fonts are only available in (Windows) FON files. Sometimes conversio
 
 ### Mixed fonts
 
-These fonts combine different fonts, that are mostly already featured on this website, to create a complete set of characters for both lating script, and CJK:
+These fonts combine different fonts, that are mostly already featured on this website, to create a complete set of characters for both latin script, and CJK:
 - Ricty Diminished: https://github.com/edihbrandon/RictyDiminished (combines Inconsolata for Latin script with M+ for others)
 - Sarasa-Gothic: https://github.com/be5invis/Sarasa-Gothic A CJK programming font based on Iosevka and Source Han Sans.
 
