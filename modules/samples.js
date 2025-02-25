@@ -92,6 +92,7 @@ class SideBarDuplicateCommand(SideBarCommand):
         source = self.get_path(paths, **kwargs)
         base, leaf = os.path.split(source)
 
+        # find the file extension
         name, ext = os.path.splitext(leaf)
         if ext != '':
             while '.' in name:
@@ -161,6 +162,7 @@ button {
     color: var(--medium-grey);
     cursor: pointer;
 
+    /* handle dark-mode */
     @media (prefers-color-scheme: dark) {
         background: linear-gradient(var(--light-grey), var(--bright-white));
     }
@@ -267,6 +269,7 @@ export class Language {
   el = document.getElementById('select-language')
   samples = new Samples
 
+  // set initial value and start listening
   init () {
     if (Cookies.get('language')) {
       this.el.value = Cookies.get('language')

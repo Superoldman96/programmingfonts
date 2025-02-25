@@ -580,11 +580,8 @@ label + .nav-button {
     box-shadow: none !important;
     text-rendering: optimizeLegibility;
 
-    .cm-atom {
-        font-style: italic;
-    }
     .cm-comment {
-        font-weight: bold;
+        font-style: italic;
     }
 }
 .CodeMirror-gutters {
