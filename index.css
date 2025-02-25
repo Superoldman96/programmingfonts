@@ -554,7 +554,7 @@ pre,
 textarea,
 .CodeMirror {
     height: auto;
-    font-family: 'Input Mono', monospace;
+    font-family: monospace;
 }
 form {
     height: 100%;

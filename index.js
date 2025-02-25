@@ -79,6 +79,7 @@ function selectFont () {
   }
 
   if (font === 'input') {
+    // because Input Mono is loaded via external @font-face file
     codeMirror.style.fontFamily = 'Input Mono, monospace'
     codeMirror.querySelectorAll('pre, textarea').forEach((element) => {
       element.style.fontFamily = 'Input Mono, monospace'
