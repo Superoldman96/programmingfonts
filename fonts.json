@@ -1387,6 +1387,19 @@
         "year": 2022,
         "zerostyle": "slashed"
     },
+    "md-io": {
+        "author": "Rutherford Craze",
+        "description": "IO uses unconventional glyph constructions and large, functional ink traps to improve glyph recognition — utilitarian features which become eye-catching stylistic elements in their own right when used at larger sizes.",
+        "license": "commercial",
+        "ligatures": false,
+        "name": "MD IO",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A variable font in 8 weights, each with italics. Additionally a slashed zero is also available.",
+        "website": "https://io.mass-driver.com",
+        "year": 2023,
+        "zerostyle": "dotted"
+    },
     "mensch": {
         "author": "Robey Pointer",
         "description": "Designed in reaction to the release of Menlo, and intended as a tweaked variation on it.",

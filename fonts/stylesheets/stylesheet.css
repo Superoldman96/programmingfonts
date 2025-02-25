@@ -1343,6 +1343,30 @@
   src: url('../resources/martian-mono/martian-mono.woff2');
 }
 @font-face {
+  font-family: 'md-io';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/md-io/md-io-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'md-io';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/md-io/md-io-bold.woff2');
+}
+@font-face {
+  font-family: 'md-io';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/md-io/md-io-italic.woff2');
+}
+@font-face {
+  font-family: 'md-io';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/md-io/md-io.woff2');
+}
+@font-face {
   font-family: 'mensch';
   font-weight: normal;
   font-style: normal;

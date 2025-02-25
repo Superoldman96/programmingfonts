@@ -7,9 +7,10 @@ import { Language } from './modules/language.js'
 import { Spacing } from './modules/spacing.js'
 import { Theme } from './modules/theme.js'
 
-let fontData
-
+const defaultFont = 'md-io'
 const fontsize = new Fontsize()
+
+let fontData
 
 window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
   lineNumbers: true,
@@ -37,7 +38,7 @@ function getFont () {
   }
 
   if (!font) {
-    font = 'atkinson-hyperlegible'
+    font = defaultFont
   }
 
   return font
