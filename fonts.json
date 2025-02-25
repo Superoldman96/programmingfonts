@@ -49,7 +49,7 @@
         "author": "Adrian Smith",
         "description": "This was hand digitised as a PostScript Type-3 font from an original 2741 golf-ball salvaged from an IBM selectric typewriter.",
         "license": "public domain",
-        "ligatures": true,
+        "ligatures": false,
         "name": "APL2741",
         "rendering": "vector",
         "style": "sans",
