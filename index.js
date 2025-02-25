@@ -64,11 +64,14 @@ function selectFont () {
   const codeMirror = document.querySelector('.CodeMirror')
   const font = getFont()
 
-  if (typeof fontData !== 'undefined') {
-    setDetails(fontData[font])
+  if (typeof fontData === 'undefined') {
+    return
   }
 
-  if (typeof fontData !== 'undefined' && fontData[font].rendering === 'bitmap') {
+  setDetails(fontData[font])
+  codeMirror.setAttribute('data-font', font)
+
+  if (fontData[font].rendering === 'bitmap') {
     codeMirror.classList.add('no-smooth')
     if (fontData[font]['bitmap size']) {
       fontsize.forceSize(fontData[font]['bitmap size'])
