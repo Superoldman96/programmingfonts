@@ -938,25 +938,49 @@
   font-family: 'hack';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/hack/hack-bold-italic.woff');
+  src: url('../resources/hack/hack-bold-italic.woff2');
 }
 @font-face {
   font-family: 'hack';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/hack/hack-bold.woff');
+  src: url('../resources/hack/hack-bold.woff2');
 }
 @font-face {
   font-family: 'hack';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/hack/hack-italic.woff');
+  src: url('../resources/hack/hack-italic.woff2');
 }
 @font-face {
   font-family: 'hack';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/hack/hack.woff');
+  src: url('../resources/hack/hack.woff2');
+}
+@font-face {
+  font-family: 'hack-ligatured';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/hack-ligatured/hack-ligatured-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'hack-ligatured';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/hack-ligatured/hack-ligatured-bold.ttf');
+}
+@font-face {
+  font-family: 'hack-ligatured';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/hack-ligatured/hack-ligatured-italic.ttf');
+}
+@font-face {
+  font-family: 'hack-ligatured';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/hack-ligatured/hack-ligatured.ttf');
 }
 @font-face {
   font-family: 'hasklig';

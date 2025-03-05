@@ -1008,6 +1008,18 @@
         "year": 2015,
         "zerostyle": "dotted"
     },
+    "hack-ligatured": {
+        "author": "Gary Lo",
+        "description": "The latest Hack Font version automatically patched with latest FiraCode ligatures (a version using JetBrains Mono is also available).",
+        "license": "GNU GPL",
+        "ligatures": true,
+        "name": "Hack Ligatured",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://github.com/gaplo917/Ligatured-Hack",
+        "year": 2020,
+        "zerostyle": "dotted"
+    },
     "hasklig": {
         "author": "Ian Tuomi",
         "description": "A code font with monospaced ligatures, designed for Haskell.",
