@@ -25,8 +25,8 @@ export class Samples {
       case 'shell':
         code = Bash;
         break;
-      case 'ascii':
-        code = ASCII;
+      case 'ascii art':
+        code = ASCII_Art;
         break;
       default:
         code = '';
@@ -295,20 +295,8 @@ export class Language {
 }
 `
 
-const ASCII =
-`
-1. UUIDv6:
-   from https://planetscale.com/blog/the-problem-with-using-a-uuid-primary-key-in-mysql#uuidv6
-
-               ╭─── time_mid       ╭── node
-              ╭┶─╮           ╭─────┶────╮
-     e54af2ec-d381-11ee-a506-0242ac120002
-     ╰──┮───╯      ╰─┮╯ ╰─┮╯
-     time_hi         │    ╰── clock_sequence_and_version
-                     ╰─────── time_low_and_version
-
-
-2. Arduino Pinout ASCII Art:
+const ASCII_Art =
+`1. Arduino Pinout ASCII Art:
    from https://github.com/busyDuckman/ascii-art-arduinos
 
                                   +-----+
@@ -339,7 +327,7 @@ const ASCII =
       \_______________________/
 
 
-3. Box Drawing Characters:
+2. Box Drawing Characters:
    from https://en.wikipedia.org/wiki/Box-drawing_characters
 
      ┌───────────────────┐
@@ -350,6 +338,17 @@ const ASCII =
      │ └──┴──┘           │▒
      └───────────────────┘▒
       ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+
+3. UUIDv6:
+   from https://planetscale.com/blog/the-problem-with-using-a-uuid-primary-key-in-mysql#uuidv6
+
+               ╭─── time_mid       ╭── node
+              ╭┶─╮           ╭─────┶────╮
+     e54af2ec-d381-11ee-a506-0242ac120002
+     ╰──┮───╯      ╰─┮╯ ╰─┮╯
+     time_hi         │    ╰── clock_sequence_and_version
+                     ╰─────── time_low_and_version
 `
 
 const prose =
