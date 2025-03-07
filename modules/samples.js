@@ -26,7 +26,7 @@ export class Samples {
         code = Bash;
         break;
       case 'ascii art':
-        code = ASCII_Art;
+        code = ASCII;
         break;
       default:
         code = '';
@@ -295,7 +295,7 @@ export class Language {
 }
 `
 
-const ASCII_Art =
+const ASCII =
 `1. Arduino Pinout ASCII Art:
    from https://github.com/busyDuckman/ascii-art-arduinos
 
@@ -303,8 +303,8 @@ const ASCII_Art =
      +----[PWR]-------------------| USB |--+
      |                            +-----+  |
      |         GND/RST2  [ ][ ]            |
-     |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5 
-     |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4 
+     |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5
+     |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4
      |                             AREF[ ] |
      |                              GND[ ] |
      | [ ]N/C                    SCK/13[ ] |   B5
