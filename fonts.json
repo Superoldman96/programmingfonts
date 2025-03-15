@@ -2092,12 +2092,13 @@
     },
     "sudo": {
         "author": "Jens Kutílek",
-        "description": "“In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo.”",
+        "description": "“In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo.” Sudo UI is a matching proportionally spaced font family.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Sudo",
         "rendering": "vector",
         "style": "sans",
+        "variants": "A variable font with weights from ExtraLight to Bold, each with italics, and a descender depth axis, and alternate glyphs.",
         "website": "https://www.kutilek.de/sudo-font/",
         "year": 2009,
         "zerostyle": "slashed"
