@@ -1,4 +1,22 @@
 {
+    "adwaita-mono": {
+        "author": "GNOME",
+        "description": "A tweaked version of Iosevka, made to look similar to Adwaita's proportional font (based on Inter).",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Adwaita Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://gitlab.gnome.org/GNOME/adwaita-fonts",
+        "year": 2025,
+        "zerostyle": "dotted"
+    },
     "agave": {
         "author": "agaric",
         "description": "A succulent monospace programming font.",
