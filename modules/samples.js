@@ -407,24 +407,6 @@ class OrdersController < ApplicationController
     @orders = Order.all
   end
 
-  def new
-    @order = Order.new
-  end
-
-  def show; end
-
-  def create
-    @order = Order.new(order_params)
-
-    if @order.save
-      flash[:notice] = 'Order was successfully created.'
-      redirect_to @order
-    else
-      flash[:alert] = @order.errors.full_messages
-      render action: 'new'
-    end
-  end
-
   def update
     if @order.update(order_params)
       flash[:notice] = 'Order was successfully updated.'
