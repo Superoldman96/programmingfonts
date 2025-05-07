@@ -1713,6 +1713,23 @@
         "year": 2015,
         "zerostyle": "slashed"
     },
+    "old-timey": {
+        "author": "Darren Embry",
+        "description": "Based on Reproducing Typewriter which was designed for simulating typewritten letters in smaller point sizes for advertisements, catalogs, etc..",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Old Timey Code",
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "regular",
+            "light",
+            "thin"
+        ],
+        "website": "https://github.com/dse/old-timey-mono-font",
+        "year": 2025,
+        "zerostyle": "slashed"
+    },
     "opendyslexic": {
         "author": "Abbie Gonzalez",
         "description": "OpenDyslexic is a typeface designed against some common symptoms of dyslexia.",

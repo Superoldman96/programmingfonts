@@ -1763,6 +1763,12 @@
   src: url('../resources/office-code-pro/office-code-pro.woff');
 }
 @font-face {
+  font-family: 'old-timey';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/old-timey/old-timey.ttf');
+}
+@font-face {
   font-family: 'opendyslexic';
   font-weight: normal;
   font-style: normal;
