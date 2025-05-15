@@ -44,8 +44,10 @@ We've been able to license some commercial fonts for programmingfonts.org, but t
 - Consolas: https://learn.microsoft.com/en-us/typography/font-list/consolas
 - Courier (New): https://learn.microsoft.com/en-us/typography/font-list/courier-new
 - Dank Mono: https://philpl.gumroad.com/l/dank-mono
+- Everson Mono: https://www.evertype.com/emono/licence.html
 - GT America Mono: http://www.gt-america.com
 - GT Pressura Mono: https://gt-pressura.com
+- Letter Gothic: https://fonts.adobe.com/fonts/letter-gothic
 - Lucida Console: https://learn.microsoft.com/en-us/typography/font-list/lucida-console
 - Maison Mono: https://www.myfonts.com/products/maison-mono-pack-package-944927
 - Menlo: https://en.wikipedia.org/wiki/Menlo_(typeface)
@@ -54,7 +56,9 @@ We've been able to license some commercial fonts for programmingfonts.org, but t
 - Operator: https://www.typography.com/fonts/operator/overview
 - Pitch: https://klim.co.nz/retail-fonts/pitch/
 - PragmataPro: https://fsd.it/shop/fonts/pragmatapro/
+- Presite Elite: https://www.myfonts.com/collections/prestige-elite-font-urw
 - San Francisco Mono: https://developer.apple.com/fonts/
+- Wumpus Mono: https://vaughantype.com/wumpus-mono-pro/
 
 ### Curious "Free" Fonts
 
@@ -79,6 +83,10 @@ Some bitmap fonts are only available in (Windows) FON files. Sometimes conversio
 - Triskweline: http://www.netalive.org/tinkering/triskweline/
 - UW ttyp0: https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/
 - Zevv-peep: https://github.com/netyaroze/zevv-peep
+
+### Old school
+
+For "the world's biggest collection of classic text mode fonts, system fonts and BIOS fonts from DOS-era IBM PCs and compatibles", please have a look here: https://int10h.org/oldschool-pc-fonts/.
 
 ### Mixed fonts
 
