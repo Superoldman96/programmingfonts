@@ -48,7 +48,7 @@ const Bash =
 set -e
 
 NUMERALS=1234567890
-SIMILAR="oO08 iIlL1 g9qCGQ"
+SIMILAR="oO08 iIlL1 g9qCGQ 8%& <([{}])> .,;: -_="
 DIACRITICS_ETC="â é ù ï ø ç Ã Ē Æ œ"
 
 CD_CMD="cd "\\\"$(pwd)\\\"" && clear"
@@ -89,7 +89,7 @@ import sublime
 from pathlib import PurePath
 
 NUMERALS = 1234567890
-SIMILAR = "oO08 iIlL1 g9qCGQ"
+SIMILAR = "oO08 iIlL1 g9qCGQ 8%& <([{}])> .,;: -_="
 DIACRITICS_ETC = "â é ù ï ø ç Ã Ē Æ œ"
 
 class SideBarDuplicateCommand(SideBarCommand):
@@ -128,7 +128,7 @@ use Symfony\Component\Routing\Attribute\Route;
 class LuckyController
 {
   const NUMERALS = 1234567890;
-  const SIMILAR = "oO08 iIlL1 g9qCGQ";
+  const SIMILAR = "oO08 iIlL1 g9qCGQ 8%& <([{}])> .,;: -_=";
   const DIACRITICS_ETC = "â é ù ï ø ç Ã Ē Æ œ";
 
     #[Route('/lucky/number/{max}', name: 'app_lucky_number')]
@@ -154,7 +154,7 @@ class LuckyController
 
 const CSS =
 `--numerals: 1234567890;
---similar: "oO08 iIlL1 g9qCGQ";
+--similar: "oO08 iIlL1 g9qCGQ 8%& <([{}])> .,;: -_=";
 --diacritics-etc: "â é ù ï ø ç Ã Ē Æ œ";
 
 button {
@@ -208,7 +208,7 @@ const Go =
 `package main
 
 var u uint = 1234567890
-const similar = "oO08 iIlL1 g9qCGQ"
+const similar = "oO08 iIlL1 g9qCGQ 8%& <([{}])> .,;: -_="
 const diacritics = "â é ù ï ø ç Ã Ē Æ œ"
 
 import (
@@ -268,7 +268,7 @@ const JS =
 import { Samples } from './samples.js'
 
 const numerals = 1234567890
-const similar = "oO08 iIlL1 g9qCGQ"
+const similar = "oO08 iIlL1 g9qCGQ 8%& <([{}])> .,;: -_="
 const diacritics_etc = "â é ù ï ø ç Ã Ē Æ œ"
 
 export class Language {
@@ -400,7 +400,7 @@ class OrdersController < ApplicationController
   before_action :set_order, except: %i[index new create]
 
   NUMERALS = 1234567890
-  SIMILAR = 'oO08 iIlL1 g9qCGQ'
+  SIMILAR = 'oO08 iIlL1 g9qCGQ 8%& <([{}])> .,;: -_='
   DIACRITICS_ETC = 'â é ù ï ø ç Ã Ē Æ œ'
 
   def index
