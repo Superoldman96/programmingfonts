@@ -109,6 +109,7 @@ Therefore:
 
 ## All the fonts
 
+- [Adwaita Mono](https://gitlab.gnome.org/GNOME/adwaita-fonts) _SIL OFL_ ([view](https://www.programmingfonts.org/#adwaita-mono))
 - [Agave](https://github.com/agarick/agave) _MIT_ ([view](https://www.programmingfonts.org/#agave))
 - [Anka/Coder](https://github.com/loafer-mka/anka-coder-fonts) _SIL OFL_ ([view](https://www.programmingfonts.org/#anka-coder))
 - [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro) _SIL OFL_ ([view](https://www.programmingfonts.org/#anonymous-pro))
@@ -178,6 +179,7 @@ Therefore:
 - [Gohufont 11](https://font.gohu.org) _WTFPL_ ([view](https://www.programmingfonts.org/#gohufont-11))
 - [Gohufont 14](https://font.gohu.org) _WTFPL_ ([view](https://www.programmingfonts.org/#gohufont-14))
 - [Hack](https://github.com/chrissimpkins/Hack) _MIT_ ([view](https://www.programmingfonts.org/#hack))
+- [Hack Ligatured](https://github.com/gaplo917/Ligatured-Hack) _GNU GPL_ ([view](https://www.programmingfonts.org/#hack-ligatured))
 - [Hasklig](https://github.com/i-tu/Hasklig) _SIL OFL_ ([view](https://www.programmingfonts.org/#hasklig))
 - [Hermit](https://pcaro.es/p/hermit/) _SIL OFL_ ([view](https://www.programmingfonts.org/#hermit))
 - [Heterodox Mono](https://github.com/hckiang/font-new-heterodox-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#heterodox-mono))
@@ -203,6 +205,7 @@ Therefore:
 - [Luxi Mono](http://www.fontsquirrel.com/fonts/Luxi-Mono) _Luxi License_ ([view](https://www.programmingfonts.org/#luxi))
 - [Maple](https://github.com/subframe7536/maple-font) _SIL OFL_ ([view](https://www.programmingfonts.org/#maple))
 - [Martian Mono](https://github.com/evilmartians/mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#martian-mono))
+- [MD IO](https://io.mass-driver.com) _commercial_ ([view](https://www.programmingfonts.org/#md-io))
 - [Mensch](https://robey.lag.net/2010/06/21/mensch-font.html) _Bitstream Vera_ ([view](https://www.programmingfonts.org/#mensch))
 - [Meslo](https://github.com/andreberg/Meslo-Font) _Bitstream Vera_ ([view](https://www.programmingfonts.org/#meslo))
 - [Monaspace Argon](https://monaspace.githubnext.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#monaspace-argon))
@@ -219,11 +222,13 @@ Therefore:
 - [Mononoki](https://github.com/madmalik/mononoki) _SIL OFL_ ([view](https://www.programmingfonts.org/#mononoki))
 - [M PLUS Code](https://mplusfonts.github.io) _SIL OFL_ ([view](https://www.programmingfonts.org/#mplus))
 - [Nanum Gothic Coding](https://github.com/naver/nanumfont) _SIL OFL_ ([view](https://www.programmingfonts.org/#nanum-gothic-coding))
+- [Nimbus Mono](https://git.ghostscript.com/?p=urw-core35-fonts.git) _GNU GPL_ ([view](https://www.programmingfonts.org/#nimbus-mono))
 - [NK57 Monospace](https://www.dafont.com/nk57-monospace.font) _public domain_ ([view](https://www.programmingfonts.org/#nk57))
 - [NotCourierSans](http://www.fontsquirrel.com/fonts/NotCourierSans) _GNU GPL_ ([view](https://www.programmingfonts.org/#notcouriersans))
 - [Noto Mono](https://www.google.com/get/noto/) _SIL OFL_ ([view](https://www.programmingfonts.org/#noto))
 - [Nova Mono](http://www.google.com/fonts/specimen/Nova+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#nova))
 - [Office Code Pro](https://github.com/nathco/Office-Code-Pro) _SIL OFL_ ([view](https://www.programmingfonts.org/#office-code-pro))
+- [Old Timey Code](https://github.com/dse/old-timey-mono-font) _SIL OFL_ ([view](https://www.programmingfonts.org/#old-timey))
 - [OpenDyslexic Mono](https://www.opendyslexic.org) _SIL OFL_ ([view](https://www.programmingfonts.org/#opendyslexic))
 - [Overpass Mono](http://overpassfont.org) _SIL OFL_ ([view](https://www.programmingfonts.org/#overpass))
 - [0xProto](https://github.com/0xType/0xProto) _SIL OFL_ ([view](https://www.programmingfonts.org/#oxproto))

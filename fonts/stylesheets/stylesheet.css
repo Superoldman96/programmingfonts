@@ -1685,6 +1685,30 @@
   src: url('../resources/nanum-gothic-coding/nanum-gothic-coding.ttf');
 }
 @font-face {
+  font-family: 'nimbus-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/nimbus-mono/nimbus-mono-bold-italic.otf');
+}
+@font-face {
+  font-family: 'nimbus-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/nimbus-mono/nimbus-mono-bold.otf');
+}
+@font-face {
+  font-family: 'nimbus-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/nimbus-mono/nimbus-mono-italic.otf');
+}
+@font-face {
+  font-family: 'nimbus-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/nimbus-mono/nimbus-mono.otf');
+}
+@font-face {
   font-family: 'nk57';
   font-weight: bold;
   font-style: italic;

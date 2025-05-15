@@ -1652,6 +1652,24 @@
         "year": 2009,
         "zerostyle": "dotted"
     },
+    "nimbus-mono": {
+        "author": "URW Type Foundry",
+        "description": "Nimbus Mono PS is a monospaced typeface designed by URW Studio, released in 1984, and is part of the Ghostscript fonts.",
+        "license": "GNU GPL",
+        "ligatures": false,
+        "name": "Nimbus Mono",
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "bold",
+            "bold-italic",
+            "italic",
+            "regular"
+        ],
+        "website": "https://git.ghostscript.com/?p=urw-core35-fonts.git",
+        "year": 1984,
+        "zerostyle": "empty"
+    },
     "nk57": {
         "author": "Raymond Larabie",
         "description": "Unlike many monospaced screen fonts that prioritize low-resolution use, NK57 Monospace was created with varying proportions, ensuring that its symbols and characters are easily visible, even on the smallest of screens. This makes it an ideal choice for developers who need to view and edit code on the go.",
