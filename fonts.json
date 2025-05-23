@@ -2284,5 +2284,20 @@
         "website": "https://fedoraproject.org/wiki/VT323_Fonts",
         "year": 2014,
         "zerostyle": "empty"
+    },
+    "zhima-mono": {
+        "author": "Guoyu Ou",
+        "description": "A tweaked version of Iosevka.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "ZhiMa Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://github.com/ouonline/ZhiMaMono",
+        "year": 2025,
+        "zerostyle": "slashed"
     }
 }

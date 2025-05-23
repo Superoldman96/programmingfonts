@@ -2290,3 +2290,9 @@
   font-style: normal;
   src: url('../resources/vt323/vt323.ttf');
 }
+@font-face {
+  font-family: 'zhima-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/zhima-mono/zhima-mono.ttf');
+}

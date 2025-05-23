@@ -265,3 +265,4 @@ Therefore:
 - [Verily Serif Mono](https://www.fontsquirrel.com/fonts/Verily-Serif-Mono) _Bitstream Vera_ ([view](https://www.programmingfonts.org/#verily))
 - [Victor Mono](https://rubjo.github.io/victor-mono/) _MIT_ ([view](https://www.programmingfonts.org/#victor-mono))
 - [VT323](https://fedoraproject.org/wiki/VT323_Fonts) _SIL OFL_ ([view](https://www.programmingfonts.org/#vt323))
+- [ZhiMa Mono](https://github.com/ouonline/ZhiMaMono) _SIL OFL_ ([view](https://www.programmingfonts.org/#zhima-mono))
