@@ -2287,7 +2287,7 @@
     },
     "zhima-mono": {
         "author": "Guoyu Ou",
-        "description": "A tweaked version of Iosevka.",
+        "description": "A version of Iosevka, tweaked for compact file size and with wider characters.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "ZhiMa Mono",
