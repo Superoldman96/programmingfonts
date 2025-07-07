@@ -45,6 +45,19 @@
         "year": 2010,
         "zerostyle": "slashed"
     },
+    "annotation-mono": {
+        "author": "Qwerasd",
+        "description": "Annotation Mono is an idealized handwriting; using letter forms inspired by monospace bitmap fonts, legibility is maximized while retaining a hand-written character.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Annotation Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A variable font in 10 weights, each with italics (oblique).",
+        "website": "https://qwerasd205.github.io/AnnotationMono/",
+        "year": 2025,
+        "zerostyle": "slashed"
+    },
     "anonymous-pro": {
         "author": "Mark Simonson",
         "description": "Anonymous Pro is an evolution of the original Anonymous, adding lots of character sets and styles.",

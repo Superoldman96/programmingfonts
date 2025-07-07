@@ -65,6 +65,30 @@
   src: url('../resources/anka-coder/anka-coder.ttf');
 }
 @font-face {
+  font-family: 'annotation-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/annotation-mono/annotation-mono-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'annotation-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/annotation-mono/annotation-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'annotation-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/annotation-mono/annotation-mono-italic.woff2');
+}
+@font-face {
+  font-family: 'annotation-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/annotation-mono/annotation-mono.woff2');
+}
+@font-face {
   font-family: 'anonymous-pro';
   font-weight: bold;
   font-style: italic;
