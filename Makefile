@@ -7,7 +7,7 @@ lint:
 	npx eslint *.js modules/*.js
 
 test:
-	npx ajv -c ajv-formats -s fonts-schema.json -d fonts.json
+	npx jsonschema validate fonts-schema.json fonts.json
 
 fonts/stylesheets/stylesheet.css: fonts/stylesheets/fonts.less
 	npx lessc $^ $@

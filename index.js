@@ -130,7 +130,6 @@ function renderSelectList () {
       return acc
     }, {})
   } catch (err) {
-    // eslint-disable-next-line no-console
     console.error('could not render favorites', err)
   }
 
@@ -216,7 +215,6 @@ window.toggleFavorite = (alias) => {
     }
     localStorage.setItem('favorites', JSON.stringify(Array.from(new Set(favorites))))
   } catch (err) {
-    // eslint-disable-next-line no-console
     console.error('could not save favorite', err)
   }
   renderSelectList()
