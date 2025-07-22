@@ -1027,8 +1027,21 @@
         "year": 2010,
         "zerostyle": "slashed"
     },
+    "google-sans-code": {
+        "author": "Chris Simpkins",
+        "description": "Google Sans Code is a fixed-width font family, designed to bring clarity, readability, and a bit of Google's distinctive brand character to code.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Google Sans Code",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A variable font ranging in weights 300-800, including italics.",
+        "website": "https://github.com/googlefonts/googlesans-code",
+        "year": 2025,
+        "zerostyle": "slashed"
+    },
     "hack": {
-        "author": "Christopher Simpkins",
+        "author": "Chris Simpkins",
         "description": "Hack is designed to be a workhorse typeface for source code.",
         "license": "MIT",
         "ligatures": false,

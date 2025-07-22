@@ -983,6 +983,30 @@
   src: url('../resources/gohufont-14/gohufont-14.ttf');
 }
 @font-face {
+  font-family: 'google-sans-code';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/google-sans-code/google-sans-code-italic.ttf');
+}
+@font-face {
+  font-family: 'google-sans-code';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/google-sans-code/google-sans-code.ttf');
+}
+@font-face {
+  font-family: 'google-sans-code';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/google-sans-code/google-sans-code-italic.ttf');
+}
+@font-face {
+  font-family: 'google-sans-code';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/google-sans-code/google-sans-code.ttf');
+}
+@font-face {
   font-family: 'hack';
   font-weight: bold;
   font-style: italic;
