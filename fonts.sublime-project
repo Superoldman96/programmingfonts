@@ -4,9 +4,6 @@
 		{
 			"path": ".",
 		},
-		{
-			"path": "/Users/koenlageveen/Sites/website"
-		},
 	],
 	"build_systems": [
 		{
