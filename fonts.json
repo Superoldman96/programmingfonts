@@ -1251,6 +1251,32 @@
         "year": 2015,
         "zerostyle": "slashed"
     },
+    "ioskeley": {
+        "author": "Ahmed Hatem",
+        "description": "Iosevka configuration to mimic the look and feel of Berkeley Mono as closely as possible.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Ioskeley Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold-italic",
+            "bold",
+            "extrabold-italic",
+            "extrabold",
+            "italic",
+            "light-italic",
+            "light",
+            "medium-italic",
+            "medium",
+            "semibold-italic",
+            "semibold",
+            "regular"
+        ],
+        "website": "https://github.com/ahatem/IoskeleyMono",
+        "year": 2025,
+        "zerostyle": "dotted"
+    },
     "jetbrainsmono": {
         "author": "Philipp Nurullin",
         "description": "A typeface made for developers.",

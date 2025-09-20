@@ -1193,6 +1193,30 @@
   src: url('../resources/iosevka/iosevka-bold-italic.woff2');
 }
 @font-face {
+  font-family: 'ioskeley';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/ioskeley/ioskeley.woff2');
+}
+@font-face {
+  font-family: 'ioskeley';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/ioskeley/ioskeley-italic.woff2');
+}
+@font-face {
+  font-family: 'ioskeley';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/ioskeley/ioskeley-bold.woff2');
+}
+@font-face {
+  font-family: 'ioskeley';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/ioskeley/ioskeley-bold-italic.woff2');
+}
+@font-face {
   font-family: 'inconsolata';
   font-weight: bold;
   font-style: normal;
