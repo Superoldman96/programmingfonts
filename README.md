@@ -69,7 +69,6 @@ To date we've been unable to find a reliable source of information or downloads 
 - Selectric
 - Topaz-8
 - TI92PLUS
-- DejaVu Markup
 - Natural Mono
 
 ### Bitmap FON files
@@ -149,6 +148,7 @@ Therefore:
 - [D2Coding](https://github.com/naver/d2codingfont) _SIL OFL_ ([view](https://www.programmingfonts.org/#d2coding))
 - [DaddyTimeMono](https://github.com/BourgeoisBear/DaddyTimeMono) _SIL OFL_ ([view](https://www.programmingfonts.org/#daddytimemono))
 - [DejaVu Mono](https://dejavu-fonts.github.io) _Bitstream Vera_ ([view](https://www.programmingfonts.org/#dejavu))
+- [DejaVu Markup](https://bdtechconcepts.com/DejaVu-Markup-Font.html) _Bitstream Vera_ ([view](https://www.programmingfonts.org/#dejavu-markup))
 - [Departure Mono](https://departuremono.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#departure-mono))
 - [DM Mono](https://fonts.google.com/specimen/DM+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#dm-mono))
 - [DPSDbeyond](https://backpacker.gr/fonts/11) _SIL OFL_ ([view](https://www.programmingfonts.org/#dpsdbeyond))

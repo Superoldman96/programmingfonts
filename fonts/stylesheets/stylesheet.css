@@ -635,6 +635,30 @@
   src: url('../resources/dejavu/dejavu.woff');
 }
 @font-face {
+  font-family: 'dejavu-markup';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/dejavu-markup/dejavu-markup-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'dejavu-markup';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/dejavu-markup/dejavu-markup-bold.ttf');
+}
+@font-face {
+  font-family: 'dejavu-markup';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/dejavu-markup/dejavu-markup-italic.ttf');
+}
+@font-face {
+  font-family: 'dejavu-markup';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/dejavu-markup/dejavu-markup.ttf');
+}
+@font-face {
   font-family: 'departure-mono';
   font-weight: normal;
   font-style: normal;

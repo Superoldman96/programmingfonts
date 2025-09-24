@@ -588,6 +588,24 @@
         "year": 2004,
         "zerostyle": "dotted"
     },
+    "dejavu-markup": {
+        "author": "Brian Dunn",
+        "description": "Adopted from DejaVu to be more suited to text-document markup languages: shortened the en-dash and lowered the minus.",
+        "license": "Bitstream Vera",
+        "ligatures": false,
+        "name": "DejaVu Markup",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "bold",
+            "italic",
+            "bold-italic"
+        ],
+        "website": "https://bdtechconcepts.com/DejaVu-Markup-Font.html",
+        "year": 2016,
+        "zerostyle": "dotted"
+    },
     "departure-mono": {
         "author": "Helena Zhang",
         "description": "Departure Mono is a monospaced pixel font inspired by the constraints of early command-line and graphical user interfaces, the tiny pixel fonts of the late 90s/early 00s, and sci-fi concepts from film and television.",
