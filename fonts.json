@@ -1866,6 +1866,21 @@
         "year": 2023,
         "zerostyle": "slashed"
     },
+    "paper-mono": {
+        "author": "Lost Coast Labs, Inc. (Paper Design)",
+        "description": "A beautiful monospace font for design and code.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Paper Mono",
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://github.com/paper-design/paper-mono",
+        "year": 2025,
+        "zerostyle": "empty"
+    },
     "oxygen": {
         "author": "Vernon Adams",
         "description": "Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux.",

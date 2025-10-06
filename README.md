@@ -236,6 +236,7 @@ Therefore:
 - [Overpass Mono](http://overpassfont.org) _SIL OFL_ ([view](https://www.programmingfonts.org/#overpass))
 - [0xProto](https://github.com/0xType/0xProto) _SIL OFL_ ([view](https://www.programmingfonts.org/#oxproto))
 - [Oxygen Mono](http://www.google.com/fonts/specimen/Oxygen+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#oxygen))
+- [Paper Mono](https://github.com/paper-design/paper-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#paper-mono))
 - [IBM Plex Mono](https://github.com/IBM/plex) _SIL OFL_ ([view](https://www.programmingfonts.org/#plex-mono))
 - [Press Start 2P](https://github.com/codeman38/PressStart2P) __ ([view](https://www.programmingfonts.org/#press-start-2p))
 - [Profont](http://tobiasjung.name/profont/) _MIT_ ([view](https://www.programmingfonts.org/#profont))
