@@ -1867,7 +1867,7 @@
         "zerostyle": "slashed"
     },
     "paper-mono": {
-        "author": "Lost Coast Labs, Inc. (Paper Design)",
+        "author": "Paper",
         "description": "A beautiful monospace font for design and code.",
         "license": "SIL OFL",
         "ligatures": false,
