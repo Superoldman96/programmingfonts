@@ -929,6 +929,12 @@
   src: url('../resources/geist/geist.woff2');
 }
 @font-face {
+  font-family: 'paper-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/paper-mono/paper-mono.woff2');
+}
+@font-face {
   font-family: 'generic';
   font-weight: normal;
   font-style: normal;
