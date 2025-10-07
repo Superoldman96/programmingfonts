@@ -1868,7 +1868,7 @@
     },
     "paper-mono": {
         "author": "Paper",
-        "description": "A beautiful monospace font for design and code.",
+        "description": "A beautiful monospace font for design and code. Based on Geist Mono.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Paper Mono",
