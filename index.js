@@ -169,6 +169,10 @@ function renderSelectList () {
         option.classList.add('pinned')
       }
 
+      if (v.new) {
+        option.classList.add('is-new')
+      }
+
       option.innerHTML = `
         <a href="#${v.alias}" data-style="${v.style}">
           <span class="name">${v.name}</span>

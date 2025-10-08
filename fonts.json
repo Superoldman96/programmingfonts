@@ -594,6 +594,7 @@
         "license": "Bitstream Vera",
         "ligatures": false,
         "name": "DejaVu Markup",
+        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -1887,6 +1888,7 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Paper Mono",
+        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -1983,6 +1985,7 @@
         "license": "SIL OFL",
         "ligatures": true,
         "name": "psudoFont Liga Mono",
+        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [
