@@ -163,12 +163,20 @@ function renderSelectList () {
       const option = document.createElement('div')
 
       option.classList.add('entry')
+      option.setAttribute('data-alias', v.alias)
+
       if (favoritesMap[v.alias]) {
         option.classList.add('pinned')
       }
 
-      option.setAttribute('data-alias', v.alias)
-      option.innerHTML = `<a href="#${v.alias}" data-style="${v.style}"><span class="name">${v.name}</span><span class="details">${v.year} — ${v.author}</span></a><a class="favoritelink" onclick="toggleFavorite('${v.alias}')">${pinIcon}</a><a class="website" href="${v.website}" rel="external"> <span>Website</span>${icon}</a>`
+      option.innerHTML = `
+        <a href="#${v.alias}" data-style="${v.style}">
+          <span class="name">${v.name}</span>
+          <span class="details">${v.year} — ${v.author}</span>
+        </a>
+        <a class="favoritelink" onclick="toggleFavorite('${v.alias}')">${pinIcon}</a>
+        <a class="website" href="${v.website}" rel="external"> <span>Website</span>${icon}</a>
+      `
 
       document.getElementById('select-font').appendChild(option)
     })
