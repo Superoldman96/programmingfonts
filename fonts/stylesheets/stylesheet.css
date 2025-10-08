@@ -1967,6 +1967,30 @@
   src: url('../resources/proggy-vector/proggy-vector.woff');
 }
 @font-face {
+  font-family: 'psudo';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/psudo/psudo-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'psudo';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/psudo/psudo-bold.ttf');
+}
+@font-face {
+  font-family: 'psudo';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/psudo/psudo-italic.ttf');
+}
+@font-face {
+  font-family: 'psudo';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/psudo/psudo.ttf');
+}
+@font-face {
   font-family: 'pt';
   font-weight: normal;
   font-style: normal;

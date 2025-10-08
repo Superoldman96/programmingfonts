@@ -1977,6 +1977,24 @@
         "year": 2019,
         "zerostyle": "slashed"
     },
+    "psudo": {
+        "author": "Renato Setoue",
+        "description": "Based on Meslo/Menlo and IBM Plex Mono/Lilex, designed for coding and terminal use.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "psudoFont Liga Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold",
+            "bold-italic",
+            "italic",
+            "regular"
+        ],
+        "website": "https://github.com/psudo-dev/psudofont-liga-mono",
+        "year": 2025,
+        "zerostyle": "dotted"
+    },
     "pt": {
         "author": "Alexandra Korolkova",
         "description": "PT Mono was developed for the special needs -- for use in forms, tables, work sheets etc.",
