@@ -1888,7 +1888,7 @@
         "ligatures": false,
         "name": "Paper Mono",
         "rendering": "vector",
-        "style": "serif",
+        "style": "sans",
         "variants": [
             "regular"
         ],
