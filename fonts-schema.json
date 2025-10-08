@@ -17,6 +17,7 @@
                     "pattern": "^[a-z][a-z0-9-]+$"
                 },
                 "name": { "type": "string" },
+                "new": { "type": "boolean" },
                 "author": { "type": "string" },
                 "description": { "type": "string" },
                 "year": { "type": "integer" },
