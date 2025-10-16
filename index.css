@@ -670,18 +670,6 @@ body:has(dialog[open]) {
     }
 }
 
-#matomo-opt-out {
-    font-size: 10px;
-    color: inherit;
-    label {
-        color: var(--dark-grey);
-    }
-    strong {
-        font-weight: normal;
-    }
-}
-
-
 @media screen and (max-width: 56em) {
     body {
         display: block;
