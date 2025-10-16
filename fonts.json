@@ -541,7 +541,7 @@
         "name": "Cutive Mono",
         "rendering": "vector",
         "style": "serif",
-        "website": "http://www.google.com/fonts/specimen/Cutive+Mono",
+        "website": "https://fonts.google.com/specimen/Cutive+Mono",
         "year": 2012,
         "zerostyle": "empty"
     },
@@ -670,7 +670,7 @@
         "name": "Droid Sans",
         "rendering": "vector",
         "style": "sans",
-        "website": "https://fonts.google.com/specimen/Droid+Sans",
+        "website": "https://www.fontsquirrel.com/fonts/droid-sans-mono",
         "year": 2006,
         "zerostyle": "empty"
     },
@@ -1737,7 +1737,7 @@
             "italic",
             "regular"
         ],
-        "website": "https://git.ghostscript.com/?p=urw-core35-fonts.git",
+        "website": "https://www.fontsquirrel.com/fonts/nimbus-mono",
         "year": 1984,
         "zerostyle": "empty"
     },
@@ -1798,7 +1798,7 @@
         "name": "Office Code Pro",
         "rendering": "vector",
         "style": "sans",
-        "website": "https://github.com/nathco/Office-Code-Pro",
+        "website": "https://fontlibrary.org/en/font/office-code-pro",
         "year": 2015,
         "zerostyle": "slashed"
     },
@@ -1878,7 +1878,7 @@
         "variants": [
             "regular"
         ],
-        "website": "http://www.google.com/fonts/specimen/Oxygen+Mono",
+        "website": "https://fonts.google.com/specimen/Oxygen+Mono",
         "year": 2012,
         "zerostyle": "slashed"
     },
@@ -2076,7 +2076,7 @@
         "rendering": "vector",
         "style": "sans",
         "variants": "5 weights, each with italics.",
-        "website": "https://www.google.com/fonts/specimen/Roboto+Mono",
+        "website": "https://fonts.google.com/specimen/Roboto+Mono",
         "year": 2015,
         "zerostyle": "slashed"
     },
@@ -2138,7 +2138,7 @@
         "name": "Share Tech Mono",
         "rendering": "vector",
         "style": "sans",
-        "website": "http://www.google.com/fonts/specimen/Share+Tech+Mono",
+        "website": "https://fonts.google.com/specimen/Share+Tech+Mono",
         "year": 2012,
         "zerostyle": "slashed"
     },
