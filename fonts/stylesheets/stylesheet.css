@@ -1541,6 +1541,12 @@
   src: url('../resources/meslo/meslo.woff');
 }
 @font-face {
+  font-family: 'miracode';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/miracode/miracode.ttf');
+}
+@font-face {
   font-family: 'monaspace-argon';
   font-weight: bold;
   font-style: italic;

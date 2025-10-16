@@ -1528,6 +1528,21 @@
         "year": 2010,
         "zerostyle": "slashed"
     },
+    "miracode": {
+        "author": "Idrees Hassan",
+        "description": "A sharp, readable, vector-y version of Monocraft, the programming font based on Minecraft",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Miracode",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://github.com/IdreesInc/Miracode",
+        "year": 2024,
+        "zerostyle": "slashed"
+    },
     "monaspace-argon": {
         "author": "Lettermatic & GitHub Next",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Argon is the humanist sans version.",
