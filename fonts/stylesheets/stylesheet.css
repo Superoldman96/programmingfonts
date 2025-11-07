@@ -1763,6 +1763,12 @@
   src: url('../resources/mononoki/mononoki.woff');
 }
 @font-face {
+  font-family: 'myna';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/myna/myna.otf');
+}
+@font-face {
   font-family: 'mplus';
   font-weight: bold;
   font-style: normal;
