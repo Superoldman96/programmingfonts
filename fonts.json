@@ -1714,6 +1714,21 @@
         "year": 2013,
         "zerostyle": "slashed"
     },
+    "myna": {
+        "author": "Sayyad Irfan Ali",
+        "description": "Monospace font which aims to bring harmony to your editor by treating symbols as first-class glyphs alongside alphanumeric characters.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Myna",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://github.com/sayyadirfanali/Myna",
+        "year": 2025,
+        "zerostyle": "slashed"
+    },
     "mplus": {
         "author": "Coji Morishita",
         "description": "M PLUS 1/2 are Sans Serif font with 9 weights from Thin to Black, supporting GF Latin Plus glyph set with 5,700+ Kanjis for Japanese.",

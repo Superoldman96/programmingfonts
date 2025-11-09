@@ -220,6 +220,7 @@ Therefore:
 - [Monoid](http://larsenwork.com/monoid/) _MIT_ ([view](https://www.programmingfonts.org/#monoid))
 - [MonoLisa](https://www.monolisa.dev) _commercial_ ([view](https://www.programmingfonts.org/#monolisa))
 - [Mononoki](https://github.com/madmalik/mononoki) _SIL OFL_ ([view](https://www.programmingfonts.org/#mononoki))
+- [Myna](https://github.com/sayyadirfanali/Myna) _SIL OFL_ ([view](https://www.programmingfonts.org/#myna))
 - [M PLUS Code](https://mplusfonts.github.io) _SIL OFL_ ([view](https://www.programmingfonts.org/#mplus))
 - [Nanum Gothic Coding](https://github.com/naver/nanumfont) _SIL OFL_ ([view](https://www.programmingfonts.org/#nanum-gothic-coding))
 - [Nimbus Mono](https://www.fontsquirrel.com/fonts/nimbus-mono) _GNU GPL_ ([view](https://www.programmingfonts.org/#nimbus-mono))
