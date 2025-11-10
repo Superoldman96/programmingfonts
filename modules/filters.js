@@ -25,9 +25,17 @@ export class Filters {
       this.apply()
     }
 
+    if (this.filters.author) {
+      document.getElementById('authors-list').value = this.filters.author
+    }
+
     document.getElementById('name-search').onkeyup = (event) => {
       this.filters.name = event.target.value.toLowerCase()
       this.apply()
+    }
+
+    if (this.filters.name) {
+      document.getElementById('name-search').value = this.filters.name
     }
 
     document
