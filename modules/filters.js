@@ -12,6 +12,11 @@ export class Filters {
 
   constructor (data) {
     this.fontData = data
+
+    const stored_filters = JSON.parse(localStorage.getItem('filters') ?? '{}')
+    if (Object.keys(stored_filters).length) {
+      this.filters = stored_filters
+    }
   }
 
   init () {
@@ -72,6 +77,8 @@ export class Filters {
 
   apply () {
     let count = 0
+
+    localStorage.setItem('filters', JSON.stringify(this.filters))
 
     Object.keys(this.filters).forEach((filter) => {
       const button = document.querySelector(`button[value="${filter}"]`)
