@@ -1720,6 +1720,7 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Myna",
+        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [
