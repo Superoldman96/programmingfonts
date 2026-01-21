@@ -125,6 +125,54 @@
   src: url('../resources/apl385/apl385.ttf');
 }
 @font-face {
+  font-family: 'aporetic-sans';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/aporetic-sans/aporetic-sans-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'aporetic-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/aporetic-sans/aporetic-sans-bold.ttf');
+}
+@font-face {
+  font-family: 'aporetic-sans';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/aporetic-sans/aporetic-sans-italic.ttf');
+}
+@font-face {
+  font-family: 'aporetic-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/aporetic-sans/aporetic-sans.ttf');
+}
+@font-face {
+  font-family: 'aporetic-serif';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/aporetic-serif/aporetic-serif-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'aporetic-serif';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/aporetic-serif/aporetic-serif-bold.ttf');
+}
+@font-face {
+  font-family: 'aporetic-serif';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/aporetic-serif/aporetic-serif-italic.ttf');
+}
+@font-face {
+  font-family: 'aporetic-serif';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/aporetic-serif/aporetic-serif.ttf');
+}
+@font-face {
   font-family: 'atkinson-hyperlegible';
   font-weight: bold;
   font-style: italic;

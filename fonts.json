@@ -106,6 +106,44 @@
         "year": 2003,
         "zerostyle": "empty"
     },
+    "aporetic-sans": {
+        "author": "Protesilaos Stavrou",
+        "description": "A customised build of the Iosevka that optimises for inter-glyph and inter-style consistency within the overarching constraint of usability at small point sizes.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Aporetic Sans Mono",
+        "new": true,
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://github.com/protesilaos/aporetic",
+        "year": 2025,
+        "zerostyle": "slashed"
+    },
+    "aporetic-serif": {
+        "author": "Protesilaos Stavrou",
+        "description": "A customised build of the Iosevka that optimises for inter-glyph and inter-style consistency within the overarching constraint of usability at small point sizes.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Aporetic Serif Mono",
+        "new": true,
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://github.com/protesilaos/aporetic",
+        "year": 2025,
+        "zerostyle": "slashed"
+    },
     "atkinson-hyperlegible": {
         "author": "Braille Institute",
         "description": "At Braille Institute, we’ve created a family of hyperlegible™ fonts designed to improve legibility and readability for individuals with low vision.",
@@ -2016,7 +2054,6 @@
         "license": "SIL OFL",
         "ligatures": true,
         "name": "psudoFont Liga Mono",
-        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [
