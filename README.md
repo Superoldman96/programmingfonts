@@ -202,6 +202,7 @@ Therefore:
 - [Lotion](https://font.nina.coffee) _SIL OFL_ ([view](https://www.programmingfonts.org/#lotion))
 - [Luculent](http://eastfarthing.com/luculent/) _SIL OFL_ ([view](https://www.programmingfonts.org/#luculent))
 - [Luxi Mono](http://www.fontsquirrel.com/fonts/Luxi-Mono) _Luxi License_ ([view](https://www.programmingfonts.org/#luxi))
+- [Lyth Mono](http://github.com/why-trv/) _SIL OFL_ ([view](https://www.programmingfonts.org/#lyth-mono))
 - [Maple](https://github.com/subframe7536/maple-font) _SIL OFL_ ([view](https://www.programmingfonts.org/#maple))
 - [Martian Mono](https://github.com/evilmartians/mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#martian-mono))
 - [MD IO](https://io.mass-driver.com) _commercial_ ([view](https://www.programmingfonts.org/#md-io))

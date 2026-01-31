@@ -1499,6 +1499,30 @@
   src: url('../resources/luxi/luxi.woff');
 }
 @font-face {
+  font-family: 'lyth-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/lyth-mono/lyth-mono-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'lyth-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/lyth-mono/lyth-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'lyth-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/lyth-mono/lyth-mono-italic.woff2');
+}
+@font-face {
+  font-family: 'lyth-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/lyth-mono/lyth-mono.woff2');
+}
+@font-face {
   font-family: 'maple';
   font-weight: bold;
   font-style: italic;
