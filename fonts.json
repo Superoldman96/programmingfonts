@@ -1481,6 +1481,20 @@
         "year": 2001,
         "zerostyle": "empty"
     },
+    "lyth-mono": {
+        "author": "Yuri Turov",
+        "description": "A custom metrics Iosevka build aiming for a square-ish 'technical' look with good legibility at small sizes.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "new": true,
+        "name": "Lyth Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "4 weights (regular, light, medium, bold), italics, 3 arc curvature options (normal, square, round).",
+        "website": "https://github.com/why-trv/LythMono",
+        "year": 2026,
+        "zerostyle": "dotted"
+    },
     "maple": {
         "author": "subframe7536",
         "description": "Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line.",
