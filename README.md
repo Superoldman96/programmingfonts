@@ -7,10 +7,10 @@ ProgrammingFonts.org makes it easier to find monospaced fonts. All fonts in one 
 
 ## Buy me a coffee
 
-☕️👌🏻
-
 This website is powered by coffee. No ads, no monetization, no business model. We do have some costs for the domain name however.
-Please feel free to make a little [donation via PayPal](https://paypal.me/koenlageveen) to keep this labour of love running. It's much appreciated!
+Please feel free to make a little donation via to keep this labour of love running. It's much appreciated!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G21VT3Z6)
 
 ## Project layout / contributing
 
