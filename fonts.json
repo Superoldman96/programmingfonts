@@ -112,7 +112,6 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Aporetic Sans Mono",
-        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -131,7 +130,6 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Aporetic Serif Mono",
-        "new": true,
         "rendering": "vector",
         "style": "serif",
         "variants": [
@@ -483,6 +481,63 @@
         ],
         "website": "http://openfontlibrary.org/en/font/consolamono",
         "year": 2011,
+        "zerostyle": "slashed"
+    },
+    "courier-ibm": {
+        "author": "Howard Kettler",
+        "description": "IBM’s original Courier digitized and made available in modern file formats. Dotted and slashed zeroes are available that are more suited for programming. Here credited to the original designer, but maintained by Darren Embry.",
+        "license": "permissive",
+        "ligatures": false,
+        "name": "IBM Courier",
+        "new": true,
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://github.com/dse/font-og-courier",
+        "year": 1955,
+        "zerostyle": "empty"
+    },
+    "courier-ibm-dotted": {
+        "author": "Darren Embry",
+        "description": "IBM’s original Courier digitized and made available in modern file formats. This is the dotted zero variant, improved for programming by Darren Embry.",
+        "license": "permissive",
+        "ligatures": false,
+        "name": "IBM Courier (dot)",
+        "new": true,
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://github.com/dse/font-og-courier",
+        "year": 2021,
+        "zerostyle": "dotted"
+    },
+    "courier-ibm-slashed": {
+        "author": "Darren Embry",
+        "description": "IBM’s original Courier digitized and made available in modern file formats. This is the slashed zero variant, improved for programming by Darren Embry.",
+        "license": "permissive",
+        "ligatures": false,
+        "name": "IBM Courier (slash)",
+        "new": true,
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://github.com/dse/font-og-courier",
+        "year": 2021,
         "zerostyle": "slashed"
     },
     "courier-prime": {
@@ -1486,7 +1541,6 @@
         "description": "A custom metrics Iosevka build aiming for a square-ish 'technical' look with good legibility at small sizes.",
         "license": "SIL OFL",
         "ligatures": true,
-        "new": true,
         "name": "Lyth Mono",
         "rendering": "vector",
         "style": "sans",
@@ -1585,7 +1639,6 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Miracode",
-        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -1772,7 +1825,6 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Myna",
-        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -1971,7 +2023,6 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Paper Mono",
-        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": [

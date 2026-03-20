@@ -545,6 +545,78 @@
   src: url('../resources/consolamono/consolamono.ttf');
 }
 @font-face {
+  font-family: 'courier-ibm';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/courier-ibm/courier-ibm-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/courier-ibm/courier-ibm-bold.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/courier-ibm/courier-ibm-italic.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/courier-ibm/courier-ibm.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm-dotted';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/courier-ibm-dotted/courier-ibm-dotted-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm-dotted';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/courier-ibm-dotted/courier-ibm-dotted-bold.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm-dotted';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/courier-ibm-dotted/courier-ibm-dotted-italic.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm-dotted';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/courier-ibm-dotted/courier-ibm-dotted.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm-slashed';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/courier-ibm-slashed/courier-ibm-slashed-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm-slashed';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/courier-ibm-slashed/courier-ibm-slashed-bold.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm-slashed';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/courier-ibm-slashed/courier-ibm-slashed-italic.woff2');
+}
+@font-face {
+  font-family: 'courier-ibm-slashed';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/courier-ibm-slashed/courier-ibm-slashed.woff2');
+}
+@font-face {
   font-family: 'courier-prime';
   font-weight: bold;
   font-style: italic;
