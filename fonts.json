@@ -2395,9 +2395,9 @@
         "year": 2009,
         "zerostyle": "slashed"
     },
-    "terminus": {
-        "author": "Dimitar Toshkov Zhekov",
-        "description": "A TrueType version of Terminus Font, a fixed-width bitmap font optimized for long work with computers.",
+    "terminus-ttf": {
+        "author": "Tilman Blumenbach",
+        "description": "A TrueType version of Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (TTF)",

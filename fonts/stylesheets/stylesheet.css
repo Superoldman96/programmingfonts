@@ -2453,28 +2453,28 @@
   src: url('../resources/tex-gyre-cursor/tex-gyre-cursor.woff');
 }
 @font-face {
-  font-family: 'terminus';
+  font-family: 'terminus-ttf';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/terminus/terminus-bold-italic.ttf');
+  src: url('../resources/terminus-ttf/terminus-ttf-bold-italic.ttf');
 }
 @font-face {
-  font-family: 'terminus';
+  font-family: 'terminus-ttf';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/terminus/terminus-bold.ttf');
+  src: url('../resources/terminus-ttf/terminus-ttf-bold.ttf');
 }
 @font-face {
-  font-family: 'terminus';
+  font-family: 'terminus-ttf';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/terminus/terminus-italic.ttf');
+  src: url('../resources/terminus-ttf/terminus-ttf-italic.ttf');
 }
 @font-face {
-  font-family: 'terminus';
+  font-family: 'terminus-ttf';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/terminus/terminus.ttf');
+  src: url('../resources/terminus-ttf/terminus-ttf.ttf');
 }
 @font-face {
   font-family: 'twilio-sans-mono';
