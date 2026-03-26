@@ -64,7 +64,7 @@ function selectFont () {
   const codeMirror = document.querySelector('.CodeMirror')
   const font = getFont()
 
-  if (typeof fontData === 'undefined') {
+  if (typeof fontData === 'undefined' || typeof fontData[font] === 'undefined') {
     return
   }
 
