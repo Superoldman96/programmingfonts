@@ -2395,9 +2395,33 @@
         "year": 2009,
         "zerostyle": "slashed"
     },
+    "terminus-consoleet": {
+        "author": "Jan Engelhardt",
+        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers. This conversion is from the Consoleet project.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Terminus (Consoleet)",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://inai.de/projects/consoleet/terminus",
+        "year": 2021,
+        "zerostyle": "slashed"
+    },
+    "terminus-consoleet-smooth": {
+        "author": "Jan Engelhardt",
+        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers. This conversion is from the Consoleet project and uses smooth straight vectors to avoid stairstepping.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Terminus (Consoleet, smooth)",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://inai.de/projects/consoleet/terminus",
+        "year": 2021,
+        "zerostyle": "slashed"
+    },
     "terminus-ttf": {
         "author": "Tilman Blumenbach",
-        "description": "A TrueType version of Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers.",
+        "description": "A TrueType version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (TTF)",

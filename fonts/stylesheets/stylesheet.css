@@ -2453,6 +2453,24 @@
   src: url('../resources/tex-gyre-cursor/tex-gyre-cursor.woff');
 }
 @font-face {
+  font-family: 'terminus-consoleet';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/terminus-consoleet/terminus-consoleet-bold.otf');
+}
+@font-face {
+  font-family: 'terminus-consoleet';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/terminus-consoleet/terminus-consoleet.otf');
+}
+@font-face {
+  font-family: 'terminus-consoleet-smooth';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/terminus-consoleet-smooth/terminus-consoleet-smooth.otf');
+}
+@font-face {
   font-family: 'terminus-ttf';
   font-weight: bold;
   font-style: italic;

@@ -75,6 +75,7 @@ Some bitmap fonts are only available in (Windows) FON files. Sometimes conversio
 - Glean: https://github.com/benwr/glean
 - Neep: https://github.com/nikolas/jmk-x11-fonts
 - Tamsyn: http://www.fial.com/~scott/tamsyn-font/
+- Terminus: https://sourceforge.net/projects/terminus-font/ (TTF/OTF conversions are included, but not quite the same)
 - Triskweline: http://www.netalive.org/tinkering/triskweline/
 - UW ttyp0: https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/
 - Zevv-peep: https://github.com/netyaroze/zevv-peep
@@ -265,7 +266,9 @@ Therefore:
 - [Space Mono](https://fonts.google.com/specimen/Space+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#space))
 - [Spleen](https://www.cambus.net/spleen-monospaced-bitmap-fonts/) _BSD-2-Clause_ ([view](https://www.programmingfonts.org/#spleen))
 - [Sudo](https://www.kutilek.de/sudo-font/) _SIL OFL_ ([view](https://www.programmingfonts.org/#sudo))
-- [Terminus (TTF)](https://files.ax86.net/terminus-ttf) _SIL OFL_ ([view](https://www.programmingfonts.org/#terminus))
+- [Terminus (Consoleet)](https://inai.de/projects/consoleet/terminus) _SIL OFL_ ([view](https://www.programmingfonts.org/#terminus-consoleet))
+- [Terminus (Consoleet, smooth)](https://inai.de/projects/consoleet/terminus) _SIL OFL_ ([view](https://www.programmingfonts.org/#terminus-consoleet-smooth))
+- [Terminus (TTF)](https://files.ax86.net/terminus-ttf) _SIL OFL_ ([view](https://www.programmingfonts.org/#terminus-ttf))
 - [TeX Gyre Cursor](http://www.gust.org.pl/projects/e-foundry/tex-gyre) _GUST font license_ ([view](https://www.programmingfonts.org/#tex-gyre-cursor))
 - [Twilio Sans Mono](https://github.com/twilio/twilio-sans-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#twilio-sans-mono))
 - [Ubuntu Mono](http://font.ubuntu.com) _Ubuntu Font Licence_ ([view](https://www.programmingfonts.org/#ubuntu))
