@@ -2243,6 +2243,19 @@
         "year": 2019,
         "zerostyle": "slashed"
     },
+    "sergamon": {
+        "author": "sgmonda",
+        "description": "A pixel-perfect monospaced font designed for code, crafted on an 8x16 pixel grid. Every character renders exactly as typed. 4,000+ glyphs covering Latin, Cyrillic, Greek, Hebrew, Arabic, Thai, Devanagari, and more.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Sergamon",
+        "new": true,
+        "rendering": "bitmap",
+        "style": "sans",
+        "website": "https://github.com/sgmonda/sergamon",
+        "year": 2024,
+        "zerostyle": "empty"
+    },
     "serious-shanns": {
         "author": "Kyle Beechly",
         "description": "A legible monospace font for playful professionals. Comic Sans for hackers.",
