@@ -256,6 +256,7 @@ Therefore:
 - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) _Apache_ ([view](https://www.programmingfonts.org/#roboto))
 - [saxMono](http://www.fontsquirrel.com/fonts/saxMono) _freeware_ ([view](https://www.programmingfonts.org/#sax))
 - [Scientifica](https://github.com/nerdypepper/scientifica) _SIL OFL_ ([view](https://www.programmingfonts.org/#scientifica))
+- [Sergamon](https://sgmonda.com/sergamon) _SIL OFL_ ([view](https://www.programmingfonts.org/#sergamon))
 - [Serious Shanns](https://kabeech.github.io/serious-shanns/) _MIT_ ([view](https://www.programmingfonts.org/#serious-shanns))
 - [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#share-tech))
 - [SK Modernist Mono](https://seankanedesign.gumroad.com/l/sk-modernist) _commercial_ ([view](https://www.programmingfonts.org/#sk-modernist))
