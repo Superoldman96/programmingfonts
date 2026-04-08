@@ -2244,7 +2244,7 @@
         "zerostyle": "slashed"
     },
     "sergamon": {
-        "author": "sgmonda",
+        "author": "Sergio García Mondaray",
         "description": "A pixel-perfect monospaced font designed for code, crafted on an 8x16 pixel grid. Every character renders exactly as typed. 4,000+ glyphs covering Latin, Cyrillic, Greek, Hebrew, Arabic, Thai, Devanagari, and more.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2252,8 +2252,8 @@
         "new": true,
         "rendering": "bitmap",
         "style": "sans",
-        "website": "https://github.com/sgmonda/sergamon",
-        "year": 2024,
+        "website": "https://sgmonda.com/sergamon",
+        "year": 2026,
         "zerostyle": "dotted"
     },
     "serious-shanns": {
