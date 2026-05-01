@@ -1713,6 +1713,19 @@
         "year": 2023,
         "zerostyle": "dotted"
     },
+    "mona-sans-mono": {
+        "author": "GitHub",
+        "description": "A strong and versatile typeface, designed together with Degarism and inspired by industrial-era grotesques.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Mona Sans Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A variable font ranging in weights 200-900.",
+        "website": "https://github.com/github/mona-sans",
+        "year": 2025,
+        "zerostyle": "slashed"
+    },
     "monocraft": {
         "author": "Idrees Hassan",
         "description": "The monospaced font for developers who like Minecraft a bit too much.",
