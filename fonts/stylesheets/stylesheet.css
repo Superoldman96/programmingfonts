@@ -1812,13 +1812,7 @@
 }
 @font-face {
   font-family: 'mona-sans-mono';
-  font-weight: bold;
-  font-style: normal;
-  src: url('../resources/mona-sans-mono/mona-sans-mono.woff2');
-}
-@font-face {
-  font-family: 'mona-sans-mono';
-  font-weight: normal;
+  font-weight: 100 900;
   font-style: normal;
   src: url('../resources/mona-sans-mono/mona-sans-mono.woff2');
 }
