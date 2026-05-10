@@ -489,7 +489,6 @@
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier",
-        "new": true,
         "rendering": "vector",
         "style": "serif",
         "variants": [
@@ -508,7 +507,6 @@
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier (dot)",
-        "new": true,
         "rendering": "vector",
         "style": "serif",
         "variants": [
@@ -527,7 +525,6 @@
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier (slash)",
-        "new": true,
         "rendering": "vector",
         "style": "serif",
         "variants": [
@@ -1719,6 +1716,7 @@
         "license": "SIL OFL",
         "ligatures": true,
         "name": "Mona Sans Mono",
+        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": "A variable font ranging in weight and width, but without italics.",
