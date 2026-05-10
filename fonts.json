@@ -1714,14 +1714,14 @@
         "zerostyle": "dotted"
     },
     "mona-sans-mono": {
-        "author": "GitHub",
+        "author": "GitHub, Degarism",
         "description": "A strong and versatile typeface, designed together with Degarism and inspired by industrial-era grotesques.",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "Mona Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": "A variable font ranging in weights 200-900.",
+        "variants": "A variable font ranging in weight and width, but without italics.",
         "website": "https://github.com/github/mona-sans",
         "year": 2025,
         "zerostyle": "slashed"
