@@ -1811,6 +1811,12 @@
   src: url('../resources/monaspace-xenon/monaspace-xenon.woff2');
 }
 @font-face {
+  font-family: 'mona-sans-mono';
+  font-weight: 100 900;
+  font-style: normal;
+  src: url('../resources/mona-sans-mono/mona-sans-mono.woff2');
+}
+@font-face {
   font-family: 'monocraft';
   font-weight: normal;
   font-style: normal;

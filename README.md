@@ -220,6 +220,7 @@ Therefore:
 - [Monaspace Neon](https://monaspace.githubnext.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#monaspace-neon))
 - [Monaspace Radon](https://monaspace.githubnext.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#monaspace-radon))
 - [Monaspace Xenon](https://monaspace.githubnext.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#monaspace-xenon))
+- [Mona Sans Mono](https://github.com/github/mona-sans) _SIL OFL_ ([view](https://www.programmingfonts.org/#mona-sans-mono))
 - [Monocraft](https://github.com/IdreesInc/Monocraft) _SIL OFL_ ([view](https://www.programmingfonts.org/#monocraft))
 - [Monoflow](https://finaltype.de/en/projects/monoflow) _commercial_ ([view](https://www.programmingfonts.org/#monoflow))
 - [Monofoki](https://github.com/datMaffin/monofoki) _SIL OFL_ ([view](https://www.programmingfonts.org/#monofoki))
