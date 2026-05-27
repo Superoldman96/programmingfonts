@@ -2507,6 +2507,18 @@
   src: url('../resources/terminus-ttf/terminus-ttf.ttf');
 }
 @font-face {
+  font-family: 'topaz-a1200';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/topaz-a1200/Topaz_a1200_v1.0.ttf');
+}
+@font-face {
+  font-family: 'topaz-a500';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/topaz-a500/Topaz_a500_v1.0.ttf');
+}
+@font-face {
   font-family: 'twilio-sans-mono';
   font-weight: bold;
   font-style: italic;
