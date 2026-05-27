@@ -272,6 +272,8 @@ Therefore:
 - [Terminus (Consoleet, smooth)](https://inai.de/projects/consoleet/terminus) _SIL OFL_ ([view](https://www.programmingfonts.org/#terminus-consoleet-smooth))
 - [Terminus (TTF)](https://files.ax86.net/terminus-ttf) _SIL OFL_ ([view](https://www.programmingfonts.org/#terminus-ttf))
 - [TeX Gyre Cursor](http://www.gust.org.pl/projects/e-foundry/tex-gyre) _GUST font license_ ([view](https://www.programmingfonts.org/#tex-gyre-cursor))
+- [Topaz (A1200)](https://github.com/rewtnull/amigafonts) _GNU GPL_ ([view](https://www.programmingfonts.org/#topaz-a1200))
+- [Topaz (A500)](https://github.com/rewtnull/amigafonts) _GNU GPL_ ([view](https://www.programmingfonts.org/#topaz-a500))
 - [Twilio Sans Mono](https://github.com/twilio/twilio-sans-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#twilio-sans-mono))
 - [Ubuntu Mono](http://font.ubuntu.com) _Ubuntu Font Licence_ ([view](https://www.programmingfonts.org/#ubuntu))
 - [GNU Unifont](http://www.unifoundry.com/unifont.html) _GNU GPL_ ([view](https://www.programmingfonts.org/#unifont))
