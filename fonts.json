@@ -2473,6 +2473,30 @@
         "year": 2006,
         "zerostyle": "empty"
     },
+    "topaz-a1200": {
+        "author": "TrueSchool Ascii",
+        "description": "Faithfully remade multi platform Amiga fonts in Amiga aspect.",
+        "license": "GNU GPL",
+        "ligatures": false,
+        "name": "Topaz (A1200)",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://github.com/rewtnull/amigafonts",
+        "year": 2013,
+        "zerostyle": "slashed"
+    },
+    "topaz-a500": {
+        "author": "TrueSchool Ascii",
+        "description": "Faithfully remade multi platform Amiga fonts in Amiga aspect.",
+        "license": "GNU GPL",
+        "ligatures": false,
+        "name": "Topaz (A500)",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://github.com/rewtnull/amigafonts",
+        "year": 2013,
+        "zerostyle": "slashed"
+    },
     "twilio-sans-mono": {
         "author": "Sharp Type",
         "description": "Twilio worked very closely with the type foundry, Sharp Type over the course of two years to develop a welcoming and adaptable typeface.",
