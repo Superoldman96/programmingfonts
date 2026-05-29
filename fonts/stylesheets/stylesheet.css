@@ -1812,7 +1812,7 @@
 }
 @font-face {
   font-family: 'mona-sans-mono';
-  font-weight: 100 900;
+  font-weight: 200 900;
   font-style: normal;
   src: url('../resources/mona-sans-mono/mona-sans-mono.woff2');
 }
@@ -2510,13 +2510,13 @@
   font-family: 'topaz-a1200';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/topaz-a1200/Topaz_a1200_v1.0.ttf');
+  src: url('../resources/topaz-a1200/topaz-a1200.ttf');
 }
 @font-face {
   font-family: 'topaz-a500';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/topaz-a500/Topaz_a500_v1.0.ttf');
+  src: url('../resources/topaz-a500/topaz-a500.ttf');
 }
 @font-face {
   font-family: 'twilio-sans-mono';
