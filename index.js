@@ -100,6 +100,13 @@ function selectFont () {
 
   const activeEntry = document.querySelector(`#select-font [data-alias='${font}']`)
   if (activeEntry) {
+    if (activeEntry.classList.contains('group-child')) {
+      const groupAlias = activeEntry.getAttribute('data-group')
+      const primary = document.querySelector(`#select-font [data-alias='${groupAlias}']`)
+      if (primary && !primary.classList.contains('group-open')) {
+        window.toggleGroup(groupAlias)
+      }
+    }
     activeEntry.classList.add('active')
     if (!isVisible(activeEntry)) {
       activeEntry.scrollIntoView({
@@ -111,6 +118,18 @@ function selectFont () {
   }
 
   Cookies.set('font', font)
+}
+
+const chevronDownIcon = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="6 6 12 12"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 10 4 4 4-4"/></svg>'
+const chevronUpIcon = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="6 6 12 12"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16 14-4-4-4 4"/></svg>'
+
+window.toggleGroup = (alias) => {
+  const primary = document.querySelector(`#select-font [data-alias='${alias}']`)
+  const isExpanded = primary.classList.toggle('group-open')
+  primary.querySelector('.group-toggle').innerHTML = isExpanded ? chevronUpIcon : chevronDownIcon
+  document.querySelectorAll(`#select-font [data-group='${alias}']`).forEach((child) => {
+    child.classList.toggle('group-child-visible', isExpanded)
+  })
 }
 
 function renderSelectList () {
@@ -159,7 +178,18 @@ function renderSelectList () {
       return 0
     })
 
+    const groups = {}
     fonts.forEach((v) => {
+      if (v.group && v.group !== v.alias) {
+        if (!groups[v.group]) groups[v.group] = []
+        groups[v.group].push(v)
+      }
+    })
+    const groupChildAliases = new Set(
+      fonts.filter((v) => v.group && v.group !== v.alias).map((v) => v.alias)
+    )
+
+    fonts.filter((v) => !groupChildAliases.has(v.alias)).forEach((v) => {
       const option = document.createElement('div')
 
       option.classList.add('entry')
@@ -173,16 +203,44 @@ function renderSelectList () {
         option.classList.add('is-new')
       }
 
+      const childList = groups[v.alias] || []
+      const chevron = childList.length > 0
+        ? `<button class="group-toggle" onclick="toggleGroup('${v.alias}')">${chevronDownIcon}</button>`
+        : ''
+
       option.innerHTML = `
         <a href="#${v.alias}" data-style="${v.style}">
           <span class="name">${v.name}</span>
           <span class="details">${v.year} — ${v.author}</span>
         </a>
+        ${chevron}
         <a class="favoritelink" onclick="toggleFavorite('${v.alias}')">${pinIcon}</a>
         <a class="website" href="${v.website}" rel="external"> <span>Website</span>${icon}</a>
       `
 
       document.getElementById('select-font').appendChild(option)
+
+      childList.forEach((child) => {
+        const childOption = document.createElement('div')
+
+        childOption.classList.add('entry', 'group-child')
+        childOption.setAttribute('data-alias', child.alias)
+        childOption.setAttribute('data-group', v.alias)
+
+        if (child.new) {
+          childOption.classList.add('is-new')
+        }
+
+        childOption.innerHTML = `
+          <a href="#${child.alias}" data-style="${child.style}">
+            <span class="name">${child.name}</span>
+            <span class="details">${child.year} — ${child.author}</span>
+          </a>
+          <a class="website" href="${child.website}" rel="external"> <span>Website</span>${icon}</a>
+        `
+
+        document.getElementById('select-font').appendChild(childOption)
+      })
     })
   }
 
@@ -240,7 +298,7 @@ function walk (direction) {
 
   while (target === null) {
     if (next) {
-      if (next.matches('.entry:not(.filtered-out)')) {
+      if (next.matches('.entry:not(.filtered-out):not(.group-child), .entry.group-child.group-child-visible:not(.filtered-out)')) {
         target = next
       } else {
         next = direction === 'up' ? next.previousElementSibling : next.nextElementSibling

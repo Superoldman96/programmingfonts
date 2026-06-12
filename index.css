@@ -346,6 +346,36 @@ section.select-list {
     .entry.filtered-out {
         display: none;
     }
+    .entry.group-child:not(.group-child-visible) {
+        display: none;
+    }
+    .entry.group-child {
+        padding-left: 24px;
+    }
+    button.group-toggle {
+        position: absolute;
+        bottom: 8px;
+        right: 6px;
+        width: 16px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        color: var(--medium-grey);
+
+        path {
+            fill: none;
+        }
+    }
+    .entry:hover button.group-toggle,
+    .entry.active button.group-toggle {
+        color: var(--dark-grey);
+    }
+    button.group-toggle:hover {
+        color: var(--ink-black);
+    }
     a[data-value] {
         display: block;
         width: 66.67%;

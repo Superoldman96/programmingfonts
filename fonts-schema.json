@@ -63,6 +63,10 @@
                     "type": "string",
                     "enum": ["empty", "slashed", "dotted"]
                 },
+                "group": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9-]+$"
+                },
                 "variants": {
                     "oneOf": [
                         {

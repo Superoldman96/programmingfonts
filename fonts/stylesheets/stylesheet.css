@@ -1337,6 +1337,78 @@
   src: url('../resources/iosevka/iosevka-bold-italic.woff2');
 }
 @font-face {
+  font-family: 'iosevka-extended';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/iosevka-extended/Iosevka-Extended.woff2');
+}
+@font-face {
+  font-family: 'iosevka-extended';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/iosevka-extended/Iosevka-ExtendedItalic.woff2');
+}
+@font-face {
+  font-family: 'iosevka-extended';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/iosevka-extended/Iosevka-ExtendedBold.woff2');
+}
+@font-face {
+  font-family: 'iosevka-extended';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/iosevka-extended/Iosevka-ExtendedBoldItalic.woff2');
+}
+@font-face {
+  font-family: 'iosevka-slab';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/iosevka-slab/IosevkaSlab-Regular.woff2');
+}
+@font-face {
+  font-family: 'iosevka-slab';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/iosevka-slab/IosevkaSlab-Italic.woff2');
+}
+@font-face {
+  font-family: 'iosevka-slab';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/iosevka-slab/IosevkaSlab-Bold.woff2');
+}
+@font-face {
+  font-family: 'iosevka-slab';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/iosevka-slab/IosevkaSlab-BoldItalic.woff2');
+}
+@font-face {
+  font-family: 'iosevka-slab-extended';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/iosevka-slab-extended/IosevkaSlab-Extended.woff2');
+}
+@font-face {
+  font-family: 'iosevka-slab-extended';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/iosevka-slab-extended/IosevkaSlab-ExtendedItalic.woff2');
+}
+@font-face {
+  font-family: 'iosevka-slab-extended';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/iosevka-slab-extended/IosevkaSlab-ExtendedBold.woff2');
+}
+@font-face {
+  font-family: 'iosevka-slab-extended';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/iosevka-slab-extended/IosevkaSlab-ExtendedBoldItalic.woff2');
+}
+@font-face {
   font-family: 'ioskeley';
   font-weight: normal;
   font-style: normal;
