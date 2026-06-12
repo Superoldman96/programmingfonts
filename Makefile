@@ -8,6 +8,7 @@ lint:
 
 test:
 	npx jsonschema validate fonts-schema.json fonts.json
+	node validate.js
 
 fonts/stylesheets/stylesheet.css: fonts/stylesheets/fonts.less
 	npx lessc $^ $@
