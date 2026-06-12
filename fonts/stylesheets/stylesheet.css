@@ -1316,25 +1316,25 @@
   font-family: 'iosevka';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/iosevka/iosevka.woff2');
+  src: url('../resources/iosevka/Iosevka-Regular.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/iosevka/iosevka-italic.woff2');
+  src: url('../resources/iosevka/Iosevka-Italic.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/iosevka/iosevka-bold.woff2');
+  src: url('../resources/iosevka/Iosevka-Bold.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/iosevka/iosevka-bold-italic.woff2');
+  src: url('../resources/iosevka/Iosevka-BoldItalic.woff2');
 }
 @font-face {
   font-family: 'iosevka-extended';
