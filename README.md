@@ -1,4 +1,5 @@
-# Programming Fonts
+Programming Fonts
+================
 
 Test drive programming fonts [online in your browser](https://www.programmingfonts.org/). The interactive counter part of the [Tumblr Blog](https://programmingfonts.tumblr.com).
 
@@ -86,7 +87,6 @@ For "the world's biggest collection of classic text mode fonts, system fonts and
 ### Mixed fonts
 
 These fonts combine different fonts, that are mostly already featured on this website, to create a complete set of characters for both latin script, and CJK:
-
 - Ricty Diminished: https://github.com/edihbrandon/RictyDiminished (combines Inconsolata for Latin script with M+ for others)
 - Sarasa-Gothic: https://github.com/be5invis/Sarasa-Gothic A CJK programming font based on Iosevka and Source Han Sans.
 
@@ -154,7 +154,7 @@ Therefore:
 - [Departure Mono](https://departuremono.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#departure-mono))
 - [DM Mono](https://fonts.google.com/specimen/DM+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#dm-mono))
 - [DPSDbeyond](https://backpacker.gr/fonts/11) _SIL OFL_ ([view](https://www.programmingfonts.org/#dpsdbeyond))
-- [Drafting\* Mono](https://indestructibletype.com/Drafting/) _SIL OFL_ ([view](https://www.programmingfonts.org/#drafting))
+- [Drafting* Mono](https://indestructibletype.com/Drafting/) _SIL OFL_ ([view](https://www.programmingfonts.org/#drafting))
 - [Droid Sans](https://www.fontsquirrel.com/fonts/droid-sans-mono) _Apache_ ([view](https://www.programmingfonts.org/#droid-sans))
 - [Edlo](https://github.com/ehamiter/Edlo) _SIL OFL_ ([view](https://www.programmingfonts.org/#edlo))
 - [Effects Eighty](http://openfontlibrary.org/en/font/effects-eighty) _SIL OFL_ ([view](https://www.programmingfonts.org/#effects-eighty))
@@ -172,7 +172,7 @@ Therefore:
 - [Fira Code](https://github.com/tonsky/FiraCode) _SIL OFL_ ([view](https://www.programmingfonts.org/#firacode))
 - [Fixedsys](https://web.archive.org/web/20160316105117/http://www.moviecorner.de/en/font-fixedsys-ttf/description) _GNU GPL_ ([view](https://www.programmingfonts.org/#fixedsys))
 - [Fixedsys with Ligatures](https://github.com/kika/fixedsys) _public domain_ ([view](https://www.programmingfonts.org/#fixedsys-ligatures))
-- [3270](https://github.com/rbanffy/3270font) \_\_ ([view](https://www.programmingfonts.org/#font3270))
+- [3270](https://github.com/rbanffy/3270font) __ ([view](https://www.programmingfonts.org/#font3270))
 - [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#fragment-mono))
 - [Generic Mono](http://luc.devroye.org/fonts-75172.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#generic))
 - [Geist](https://vercel.com/font/mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#geist))
@@ -244,7 +244,7 @@ Therefore:
 - [Oxygen Mono](https://fonts.google.com/specimen/Oxygen+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#oxygen))
 - [Paper Mono](https://github.com/paper-design/paper-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#paper))
 - [IBM Plex Mono](https://github.com/IBM/plex) _SIL OFL_ ([view](https://www.programmingfonts.org/#plex-mono))
-- [Press Start 2P](https://github.com/codeman38/PressStart2P) \_\_ ([view](https://www.programmingfonts.org/#press-start-2p))
+- [Press Start 2P](https://github.com/codeman38/PressStart2P) __ ([view](https://www.programmingfonts.org/#press-start-2p))
 - [Profont](http://tobiasjung.name/profont/) _MIT_ ([view](https://www.programmingfonts.org/#profont))
 - [Proggy Clean](https://github.com/bluescan/proggyfonts/) _MIT_ ([view](https://www.programmingfonts.org/#proggy-clean))
 - [Proggy Vector](https://github.com/bluescan/proggyfonts/) _MIT_ ([view](https://www.programmingfonts.org/#proggy-vector))
