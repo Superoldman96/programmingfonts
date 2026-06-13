@@ -486,6 +486,7 @@
     "courier-ibm": {
         "author": "Howard Kettler",
         "description": "IBM’s original Courier digitized and made available in modern file formats. Dotted and slashed zeroes are available that are more suited for programming. Here credited to the original designer, but maintained by Darren Embry.",
+        "group": "courier-ibm",
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier",
@@ -504,6 +505,7 @@
     "courier-ibm-dotted": {
         "author": "Darren Embry",
         "description": "IBM’s original Courier digitized and made available in modern file formats. This is the dotted zero variant, improved for programming by Darren Embry.",
+        "group": "courier-ibm",
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier (dot)",
@@ -522,6 +524,7 @@
     "courier-ibm-slashed": {
         "author": "Darren Embry",
         "description": "IBM’s original Courier digitized and made available in modern file formats. This is the slashed zero variant, improved for programming by Darren Embry.",
+        "group": "courier-ibm",
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier (slash)",
@@ -540,6 +543,7 @@
     "courier-prime": {
         "author": "Alan Dague-Greene",
         "description": "We set out to make the best damn Courier ever.",
+        "group": "courier-prime",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime",
@@ -558,6 +562,7 @@
     "courier-prime-code": {
         "author": "Alan Dague-Greene",
         "description": "The goodness of Courier Prime without the serifs. Code-optimized for programmers",
+        "group": "courier-prime",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime Code",
@@ -574,6 +579,7 @@
     "courier-prime-sans": {
         "author": "Alan Dague-Greene",
         "description": "The goodness of Courier Prime without the serifs.",
+        "group": "courier-prime",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime Sans",
@@ -845,6 +851,7 @@
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "group": "fairfax",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Fairfax",
@@ -862,6 +869,7 @@
     "fairfax-hd": {
         "author": "Rebecca G. Bettencourt",
         "description": "Fairfax HD is a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "group": "fairfax-hd",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Fairfax HD",
@@ -874,6 +882,7 @@
     "fairfax-hd-hax": {
         "author": "Rebecca G. Bettencourt",
         "description": "Fairfax Hax HD adds ligatures for programming, which is apparently a thing, to Fairfax HD: a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. ",
+        "group": "fairfax-hd",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "Fairfax Hax HD",
@@ -887,6 +896,7 @@
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "group": "fairfax",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Fairfax Serif",
@@ -975,6 +985,7 @@
         "author": "Darien Valentine",
         "bitmap size": 16,
         "description": "Fixedsys Excelsior font with programming ligatures.",
+        "group": "fixedsys",
         "license": "public domain",
         "ligatures": true,
         "name": "Fixedsys with Ligatures",
@@ -1151,6 +1162,7 @@
     "hack": {
         "author": "Chris Simpkins",
         "description": "Hack is designed to be a workhorse typeface for source code.",
+        "group": "hack",
         "license": "MIT",
         "ligatures": false,
         "name": "Hack",
@@ -1163,6 +1175,7 @@
     "hack-ligatured": {
         "author": "Gary Lo",
         "description": "The latest Hack Font version automatically patched with latest FiraCode ligatures (a version using JetBrains Mono is also available).",
+        "group": "hack",
         "license": "GNU GPL",
         "ligatures": true,
         "name": "Hack Ligatured",
@@ -1243,6 +1256,7 @@
     "inconsolata": {
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. First and foremost, it is a humanist sans design.",
+        "group": "inconsolata",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Inconsolata",
@@ -1268,6 +1282,7 @@
     "inconsolata-go": {
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. InconsolataGo is Inconsolata with straight quotes.",
+        "group": "inconsolata",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "InconsolataGo",
@@ -1284,6 +1299,7 @@
     "inconsolata-otf": {
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. This is the original OTF version.",
+        "group": "inconsolata",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Inconsolata OTF",
