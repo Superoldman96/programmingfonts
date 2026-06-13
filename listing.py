@@ -7,6 +7,8 @@ with open('fonts.json') as user_file:
 
     data = json.loads(file_contents)
     for key in data:
+        if 'website' not in data[key]:
+            continue
         print(TEMPLATE.format(
             key=key,
             name=data[key]['name'],
