@@ -353,7 +353,7 @@ section.select-list {
         position: absolute;
         bottom: 8px;
         right: 6px;
-        width: 16px;
+        width: auto;
         background: none;
         border: none;
         cursor: pointer;
@@ -361,7 +361,13 @@ section.select-list {
         display: flex;
         align-items: center;
         color: var(--medium-grey);
-
+        font-size: 10px;
+        svg {
+            transition: transform .2s ease-in-out;
+        }
+    }
+    .group-open button.group-toggle svg {
+        transform: rotate(180deg);
     }
     .entry:hover button.group-toggle,
     .entry.active button.group-toggle {
