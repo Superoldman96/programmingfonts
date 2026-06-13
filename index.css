@@ -305,6 +305,7 @@ section.select-list {
         position: relative;
         padding: 8px 12px;
         z-index: 0;
+        margin-bottom: -1px;
     }
     .entry:has(a:hover)::before {
         transition: background .2s ease-in-out, left .1s ease-in-out, right .1s ease-in-out;
@@ -334,10 +335,6 @@ section.select-list {
         pointer-events: none;
         z-index: -1;
         background: var(--bright-white);
-    }
-    .entry:has(a:hover) + .entry:not(:first-child)::before,
-    .entry.active + .entry:not(:first-child)::before {
-        border-top: none;
     }
     .entry > a {
         display: block;
