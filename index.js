@@ -313,6 +313,31 @@ function walk (direction) {
   }
 }
 
+function expandGroup () {
+  const activeEntry = document.querySelector('.entry.active')
+  if (!activeEntry || activeEntry.classList.contains('group-child')) {
+    return
+  }
+  if (activeEntry.querySelector('.group-toggle') && !activeEntry.classList.contains('group-open')) {
+    window.toggleGroup(activeEntry.getAttribute('data-alias'))
+  }
+}
+
+function collapseGroup () {
+  const activeEntry = document.querySelector('.entry.active')
+  if (!activeEntry) {
+    return
+  }
+  if (activeEntry.classList.contains('group-child')) {
+    const primary = document.querySelector(`#select-font [data-alias='${activeEntry.getAttribute('data-group')}']`)
+    if (primary) {
+      primary.querySelector('a').click()
+    }
+  } else if (activeEntry.classList.contains('group-open')) {
+    window.toggleGroup(activeEntry.getAttribute('data-alias'))
+  }
+}
+
 window.onhashchange = () => {
   selectFont()
 }
@@ -336,6 +361,14 @@ window.addEventListener('DOMContentLoaded', () => {
       event.preventDefault()
       event.stopPropagation()
       walk('down')
+    } else if (event.key === 'ArrowRight') {
+      event.preventDefault()
+      event.stopPropagation()
+      expandGroup()
+    } else if (event.key === 'ArrowLeft') {
+      event.preventDefault()
+      event.stopPropagation()
+      collapseGroup()
     }
   }
 
