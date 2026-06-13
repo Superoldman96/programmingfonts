@@ -517,7 +517,6 @@
             "bold",
             "bold-italic"
         ],
-        "website": "https://github.com/dse/font-og-courier",
         "year": 2021,
         "zerostyle": "dotted"
     },
@@ -536,7 +535,6 @@
             "bold",
             "bold-italic"
         ],
-        "website": "https://github.com/dse/font-og-courier",
         "year": 2021,
         "zerostyle": "slashed"
     },
@@ -572,7 +570,6 @@
             "regular",
             "italic"
         ],
-        "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013,
         "zerostyle": "slashed"
     },
@@ -591,7 +588,6 @@
             "bold",
             "bold-italic"
         ],
-        "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013,
         "zerostyle": "empty"
     },
@@ -888,7 +884,6 @@
         "name": "Fairfax Hax HD",
         "rendering": "vector",
         "style": "sans",
-        "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019,
         "zerostyle": "slashed"
     },
@@ -902,7 +897,6 @@
         "name": "Fairfax Serif",
         "rendering": "bitmap",
         "style": "serif",
-        "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
         "year": 2008,
         "zerostyle": "slashed"
     },
@@ -1292,7 +1286,6 @@
             "bold",
             "regular"
         ],
-        "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
         "zerostyle": "slashed"
     },
@@ -1308,7 +1301,6 @@
         "variants": [
             "regular"
         ],
-        "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
         "zerostyle": "slashed"
     },
