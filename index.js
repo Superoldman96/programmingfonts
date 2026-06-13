@@ -205,7 +205,7 @@ function renderSelectList () {
 
       const childList = groups[v.alias] || []
       const chevron = childList.length > 0
-        ? `<button class="group-toggle" onclick="toggleGroup('${v.alias}')">${chevronDownIcon}</button>`
+        ? `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${v.alias}')">${chevronDownIcon}</button>`
         : ''
 
       option.innerHTML = `
@@ -214,7 +214,7 @@ function renderSelectList () {
           <span class="details">${v.year} — ${v.author}</span>
         </a>
         ${chevron}
-        <a class="favoritelink" onclick="toggleFavorite('${v.alias}')">${pinIcon}</a>
+        <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${v.alias}')">${pinIcon}</a>
         ${v.website ? `<a class="website" href="${v.website}" rel="external"> <span>Website</span>${icon}</a>` : ''}
       `
 
