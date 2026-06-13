@@ -1316,97 +1316,97 @@
   font-family: 'iosevka';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/iosevka/Iosevka-Regular.woff2');
+  src: url('../resources/iosevka/iosevka.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/iosevka/Iosevka-Italic.woff2');
+  src: url('../resources/iosevka/iosevka-italic.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/iosevka/Iosevka-Bold.woff2');
+  src: url('../resources/iosevka/iosevka-bold.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/iosevka/Iosevka-BoldItalic.woff2');
+  src: url('../resources/iosevka/iosevka-bold-italic.woff2');
 }
 @font-face {
   font-family: 'iosevka-extended';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/iosevka-extended/Iosevka-Extended.woff2');
+  src: url('../resources/iosevka-extended/iosevka-extended.woff2');
 }
 @font-face {
   font-family: 'iosevka-extended';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/iosevka-extended/Iosevka-ExtendedItalic.woff2');
+  src: url('../resources/iosevka-extended/iosevka-extended-italic.woff2');
 }
 @font-face {
   font-family: 'iosevka-extended';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/iosevka-extended/Iosevka-ExtendedBold.woff2');
+  src: url('../resources/iosevka-extended/iosevka-extended-bold.woff2');
 }
 @font-face {
   font-family: 'iosevka-extended';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/iosevka-extended/Iosevka-ExtendedBoldItalic.woff2');
+  src: url('../resources/iosevka-extended/iosevka-extended-bold-italic.woff2');
 }
 @font-face {
   font-family: 'iosevka-slab';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/iosevka-slab/IosevkaSlab-Regular.woff2');
+  src: url('../resources/iosevka-slab/iosevka-slab.woff2');
 }
 @font-face {
   font-family: 'iosevka-slab';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/iosevka-slab/IosevkaSlab-Italic.woff2');
+  src: url('../resources/iosevka-slab/iosevka-slab-italic.woff2');
 }
 @font-face {
   font-family: 'iosevka-slab';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/iosevka-slab/IosevkaSlab-Bold.woff2');
+  src: url('../resources/iosevka-slab/iosevka-slab-bold.woff2');
 }
 @font-face {
   font-family: 'iosevka-slab';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/iosevka-slab/IosevkaSlab-BoldItalic.woff2');
+  src: url('../resources/iosevka-slab/iosevka-slab-bold-italic.woff2');
 }
 @font-face {
   font-family: 'iosevka-slab-extended';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/iosevka-slab-extended/IosevkaSlab-Extended.woff2');
+  src: url('../resources/iosevka-slab-extended/iosevka-slab-extended.woff2');
 }
 @font-face {
   font-family: 'iosevka-slab-extended';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/iosevka-slab-extended/IosevkaSlab-ExtendedItalic.woff2');
+  src: url('../resources/iosevka-slab-extended/iosevka-slab-extended-italic.woff2');
 }
 @font-face {
   font-family: 'iosevka-slab-extended';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/iosevka-slab-extended/IosevkaSlab-ExtendedBold.woff2');
+  src: url('../resources/iosevka-slab-extended/iosevka-slab-extended-bold.woff2');
 }
 @font-face {
   font-family: 'iosevka-slab-extended';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/iosevka-slab-extended/IosevkaSlab-ExtendedBoldItalic.woff2');
+  src: url('../resources/iosevka-slab-extended/iosevka-slab-extended-bold-italic.woff2');
 }
 @font-face {
   font-family: 'ioskeley';

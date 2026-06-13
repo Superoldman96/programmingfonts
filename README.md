@@ -19,10 +19,21 @@ Please feel free to make a little donation via to keep this labour of love runni
 - Font files are stored in [fonts/resources](https://github.com/braver/programmingfonts/tree/gh-pages/fonts/resources).
   - We store only 4 variants (if available), in `.woff2` format (if available): regular, italic, bold, bold+italic
 - All font files (and directories) are normalized to lowercase, without `-mono` unless it's really part of the name.
+- Each font lives in a directory named after its alias, and the variant files within follow a consistent naming scheme based on that alias:
+  - regular: no suffix, e.g. `iosevka/iosevka.woff2`
+  - italic: `-italic`, e.g. `iosevka/iosevka-italic.woff2`
+  - bold: `-bold`, e.g. `iosevka/iosevka-bold.woff2`
+  - bold+italic: `-bold-italic`, e.g. `iosevka/iosevka-bold-italic.woff2`
+- Alongside the variants, each font directory should also include the font's license file (e.g. `iosevka/license.md`, `agave/LICENSE`, `audio-link/OFL.txt`), exactly as shipped by the creator.
 - The [fonts.less](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/fonts.less) registers the variants for each font "alias" and is used to generate the stylesheets.
 - The license needs to allow serving in a website, or an agreement with the font creators needs to be made. If available we add a license file along with the font files.
-- Running `make` checks the json and builds the stylesheet.
-- Run `python3 listing.py` to print an updated list of all the fonts, be sure to update this README with your addition.
+
+### Development
+
+- Running `make` installs dependencies, lints, validates `fonts.json` (against [fonts-schema.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json) and `validate.js`), and builds the stylesheet.
+  - The stylesheet [stylesheet.css](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/stylesheet.css) is generated from `fonts.less` via `npx lessc` — don't edit it by hand; edit `fonts.less` and rebuild.
+- Run `make serve` to preview the site locally (`python3 -m http.server`).
+- Run `make list` (or `python3 listing.py`) to print an updated list of all the fonts, be sure to update this README with your addition.
 
 ## Notable omissions
 
