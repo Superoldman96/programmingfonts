@@ -458,7 +458,7 @@ section.select-list {
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        color: var(--ink-black);
+        color: var(--dark-grey);
     }
 }
 
