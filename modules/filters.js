@@ -107,8 +107,16 @@ export class Filters {
       }
     })
 
+    const nameMatches = (data) => (
+      !this.filters.name ||
+      data.name.toLowerCase().indexOf(this.filters.name) > -1 ||
+      data.author.toLowerCase().indexOf(this.filters.name) > -1 ||
+      data.year.toString().indexOf(this.filters.name) > -1
+    )
+
     document.querySelectorAll('.entry[data-alias]').forEach((element) => {
       const data = this.fontData[element.dataset.alias]
+      const isChild = !!element.dataset.group
 
       if (
         (!this.filters.style || data.style === this.filters.style) &&
@@ -118,14 +126,29 @@ export class Filters {
                   (data.ligatures === true && this.filters.liga === 'yes')) &&
               (!this.filters.zerostyle || data.zerostyle === this.filters.zerostyle) &&
               (this.filters.author === 'all' || data.author === this.filters.author) &&
-              (!this.filters.name || data.name.toLowerCase().indexOf(this.filters.name) > -1 ||
-                data.author.toLowerCase().indexOf(this.filters.name) > -1 ||
-                data.year.toString().indexOf(this.filters.name) > -1)
+              (isChild || nameMatches(data))
       ) {
         element.classList.remove('filtered-out')
-        count++
+        if (!isChild) count++
       } else {
         element.classList.add('filtered-out')
+      }
+    })
+
+    document.querySelectorAll('.entry[data-alias]:not([data-group]).filtered-out').forEach((parent) => {
+      const parentData = this.fontData[parent.dataset.alias]
+      if (!nameMatches(parentData)) return
+      const hasVisibleChild = !!document.querySelector(`.entry.group-child[data-group='${parent.dataset.alias}']:not(.filtered-out)`)
+      if (hasVisibleChild) {
+        parent.classList.remove('filtered-out')
+        count++
+      }
+    })
+
+    document.querySelectorAll('.entry.group-child:not(.filtered-out)').forEach((child) => {
+      const parentData = this.fontData[child.dataset.group]
+      if (parentData && !nameMatches(parentData)) {
+        child.classList.add('filtered-out')
       }
     })
 

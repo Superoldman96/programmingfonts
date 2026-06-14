@@ -486,6 +486,7 @@
     "courier-ibm": {
         "author": "Howard Kettler",
         "description": "IBM’s original Courier digitized and made available in modern file formats. Dotted and slashed zeroes are available that are more suited for programming. Here credited to the original designer, but maintained by Darren Embry.",
+        "group": "courier-ibm",
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier",
@@ -504,6 +505,7 @@
     "courier-ibm-dotted": {
         "author": "Darren Embry",
         "description": "IBM’s original Courier digitized and made available in modern file formats. This is the dotted zero variant, improved for programming by Darren Embry.",
+        "group": "courier-ibm",
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier (dot)",
@@ -515,13 +517,13 @@
             "bold",
             "bold-italic"
         ],
-        "website": "https://github.com/dse/font-og-courier",
         "year": 2021,
         "zerostyle": "dotted"
     },
     "courier-ibm-slashed": {
         "author": "Darren Embry",
         "description": "IBM’s original Courier digitized and made available in modern file formats. This is the slashed zero variant, improved for programming by Darren Embry.",
+        "group": "courier-ibm",
         "license": "permissive",
         "ligatures": false,
         "name": "IBM Courier (slash)",
@@ -533,13 +535,13 @@
             "bold",
             "bold-italic"
         ],
-        "website": "https://github.com/dse/font-og-courier",
         "year": 2021,
         "zerostyle": "slashed"
     },
     "courier-prime": {
         "author": "Alan Dague-Greene",
         "description": "We set out to make the best damn Courier ever.",
+        "group": "courier-prime",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime",
@@ -558,6 +560,7 @@
     "courier-prime-code": {
         "author": "Alan Dague-Greene",
         "description": "The goodness of Courier Prime without the serifs. Code-optimized for programmers",
+        "group": "courier-prime",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime Code",
@@ -567,13 +570,13 @@
             "regular",
             "italic"
         ],
-        "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013,
         "zerostyle": "slashed"
     },
     "courier-prime-sans": {
         "author": "Alan Dague-Greene",
         "description": "The goodness of Courier Prime without the serifs.",
+        "group": "courier-prime",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime Sans",
@@ -585,7 +588,6 @@
             "bold",
             "bold-italic"
         ],
-        "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013,
         "zerostyle": "empty"
     },
@@ -845,6 +847,7 @@
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "group": "fairfax",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Fairfax",
@@ -862,6 +865,7 @@
     "fairfax-hd": {
         "author": "Rebecca G. Bettencourt",
         "description": "Fairfax HD is a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "group": "fairfax-hd",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Fairfax HD",
@@ -874,12 +878,12 @@
     "fairfax-hd-hax": {
         "author": "Rebecca G. Bettencourt",
         "description": "Fairfax Hax HD adds ligatures for programming, which is apparently a thing, to Fairfax HD: a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. ",
+        "group": "fairfax-hd",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "Fairfax Hax HD",
         "rendering": "vector",
         "style": "sans",
-        "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019,
         "zerostyle": "slashed"
     },
@@ -887,12 +891,12 @@
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "group": "fairfax",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Fairfax Serif",
         "rendering": "bitmap",
         "style": "serif",
-        "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
         "year": 2008,
         "zerostyle": "slashed"
     },
@@ -975,6 +979,7 @@
         "author": "Darien Valentine",
         "bitmap size": 16,
         "description": "Fixedsys Excelsior font with programming ligatures.",
+        "group": "fixedsys",
         "license": "public domain",
         "ligatures": true,
         "name": "Fixedsys with Ligatures",
@@ -1151,6 +1156,7 @@
     "hack": {
         "author": "Chris Simpkins",
         "description": "Hack is designed to be a workhorse typeface for source code.",
+        "group": "hack",
         "license": "MIT",
         "ligatures": false,
         "name": "Hack",
@@ -1163,6 +1169,7 @@
     "hack-ligatured": {
         "author": "Gary Lo",
         "description": "The latest Hack Font version automatically patched with latest FiraCode ligatures (a version using JetBrains Mono is also available).",
+        "group": "hack",
         "license": "GNU GPL",
         "ligatures": true,
         "name": "Hack Ligatured",
@@ -1243,6 +1250,7 @@
     "inconsolata": {
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. First and foremost, it is a humanist sans design.",
+        "group": "inconsolata",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Inconsolata",
@@ -1268,6 +1276,7 @@
     "inconsolata-go": {
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. InconsolataGo is Inconsolata with straight quotes.",
+        "group": "inconsolata",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "InconsolataGo",
@@ -1277,13 +1286,13 @@
             "bold",
             "regular"
         ],
-        "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
         "zerostyle": "slashed"
     },
     "inconsolata-otf": {
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. This is the original OTF version.",
+        "group": "inconsolata",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Inconsolata OTF",
@@ -1292,7 +1301,6 @@
         "variants": [
             "regular"
         ],
-        "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
         "zerostyle": "slashed"
     },
@@ -1349,6 +1357,7 @@
     "iosevka": {
         "author": "Belleve Invis",
         "description": "An open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents.",
+        "group": "iosevka",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "Iosevka",
@@ -1356,6 +1365,45 @@
         "style": "sans",
         "variants": "Iosevka is highly customizable with 7 weights, 3 slopes, 2 width and tons of variations and OpenType sets.",
         "website": "http://be5invis.github.io/Iosevka/",
+        "year": 2015,
+        "zerostyle": "slashed"
+    },
+    "iosevka-extended": {
+        "author": "Belleve Invis",
+        "description": "The extended-width sans-serif variant of Iosevka, offering wider character spacing for improved readability.",
+        "group": "iosevka",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Iosevka Extended",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "Iosevka Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with extended width.",
+        "year": 2015,
+        "zerostyle": "slashed"
+    },
+    "iosevka-slab": {
+        "author": "Belleve Invis",
+        "description": "The slab-serif variant of Iosevka, sharing the same proportions and customizability with added slab serifs.",
+        "group": "iosevka",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Iosevka Slab",
+        "rendering": "vector",
+        "style": "serif",
+        "variants": "Iosevka Slab shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling.",
+        "year": 2015,
+        "zerostyle": "slashed"
+    },
+    "iosevka-slab-extended": {
+        "author": "Belleve Invis",
+        "description": "The extended-width slab-serif variant of Iosevka, offering wider character spacing for improved readability.",
+        "group": "iosevka",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Iosevka Slab Extended",
+        "rendering": "vector",
+        "style": "serif",
+        "variants": "Iosevka Slab Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling and extended width.",
         "year": 2015,
         "zerostyle": "slashed"
     },
@@ -1716,7 +1764,6 @@
         "license": "SIL OFL",
         "ligatures": true,
         "name": "Mona Sans Mono",
-        "new": true,
         "rendering": "vector",
         "style": "sans",
         "variants": "A variable font ranging in weight and width, but without italics.",
@@ -2261,7 +2308,6 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Sergamon",
-        "new": true,
         "rendering": "bitmap",
         "style": "serif",
         "variants": [
@@ -2429,7 +2475,6 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (Consoleet)",
-        "new": true,
         "rendering": "vector",
         "style": "sans",
         "website": "https://inai.de/projects/consoleet/terminus",
@@ -2442,7 +2487,6 @@
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (Consoleet, smooth)",
-        "new": true,
         "rendering": "vector",
         "style": "sans",
         "website": "https://inai.de/projects/consoleet/terminus",
@@ -2480,6 +2524,7 @@
         "license": "GNU GPL",
         "ligatures": false,
         "name": "Topaz (A1200)",
+        "new": true,
         "rendering": "bitmap",
         "style": "sans",
         "website": "https://github.com/rewtnull/amigafonts",
@@ -2493,6 +2538,7 @@
         "license": "GNU GPL",
         "ligatures": false,
         "name": "Topaz (A500)",
+        "new": true,
         "rendering": "bitmap",
         "style": "sans",
         "website": "https://github.com/rewtnull/amigafonts",

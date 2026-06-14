@@ -305,6 +305,7 @@ section.select-list {
         position: relative;
         padding: 8px 12px;
         z-index: 0;
+        margin-bottom: -1px;
     }
     .entry:has(a:hover)::before {
         transition: background .2s ease-in-out, left .1s ease-in-out, right .1s ease-in-out;
@@ -335,16 +336,45 @@ section.select-list {
         z-index: -1;
         background: var(--bright-white);
     }
-    .entry:has(a:hover) + .entry:not(:first-child)::before,
-    .entry.active + .entry:not(:first-child)::before {
-        border-top: none;
-    }
     .entry > a {
         display: block;
         flex: 1;
     }
     .entry.filtered-out {
         display: none;
+    }
+    .entry.group-child:not(.group-child-visible) {
+        display: none;
+    }
+    .entry.group-child {
+        padding-left: 24px;
+    }
+    button.group-toggle {
+        position: absolute;
+        bottom: 8px;
+        right: 6px;
+        width: auto;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        color: var(--medium-grey);
+        font-size: 10px;
+        svg {
+            transition: transform .2s ease-in-out;
+        }
+    }
+    .group-open button.group-toggle svg {
+        transform: rotate(180deg);
+    }
+    .entry:hover button.group-toggle,
+    .entry.active button.group-toggle {
+        color: var(--dark-grey);
+    }
+    button.group-toggle:hover {
+        color: var(--ink-black);
     }
     a[data-value] {
         display: block;
@@ -428,7 +458,7 @@ section.select-list {
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        color: var(--ink-black);
+        color: var(--dark-grey);
     }
 }
 

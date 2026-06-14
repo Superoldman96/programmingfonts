@@ -19,10 +19,21 @@ Please feel free to make a little donation via to keep this labour of love runni
 - Font files are stored in [fonts/resources](https://github.com/braver/programmingfonts/tree/gh-pages/fonts/resources).
   - We store only 4 variants (if available), in `.woff2` format (if available): regular, italic, bold, bold+italic
 - All font files (and directories) are normalized to lowercase, without `-mono` unless it's really part of the name.
+- Each font lives in a directory named after its alias, and the variant files within follow a consistent naming scheme based on that alias:
+  - regular: no suffix, e.g. `iosevka/iosevka.woff2`
+  - italic: `-italic`, e.g. `iosevka/iosevka-italic.woff2`
+  - bold: `-bold`, e.g. `iosevka/iosevka-bold.woff2`
+  - bold+italic: `-bold-italic`, e.g. `iosevka/iosevka-bold-italic.woff2`
+- Alongside the variants, each font directory should also include the font's license file (e.g. `iosevka/license.md`, `agave/LICENSE`, `audio-link/OFL.txt`), exactly as shipped by the creator.
 - The [fonts.less](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/fonts.less) registers the variants for each font "alias" and is used to generate the stylesheets.
 - The license needs to allow serving in a website, or an agreement with the font creators needs to be made. If available we add a license file along with the font files.
-- Running `make` checks the json and builds the stylesheet.
-- Run `python3 listing.py` to print an updated list of all the fonts, be sure to update this README with your addition.
+
+### Development
+
+- Running `make` installs dependencies, lints, validates `fonts.json` (against [fonts-schema.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json) and `validate.js`), and builds the stylesheet.
+  - The stylesheet [stylesheet.css](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/stylesheet.css) is generated from `fonts.less` via `npx lessc` — don't edit it by hand; edit `fonts.less` and rebuild.
+- Run `make serve` to preview the site locally (`python3 -m http.server`).
+- Run `make list` (or `python3 listing.py`) to print an updated list of all the fonts, be sure to update this README with your addition.
 
 ## Notable omissions
 
@@ -139,11 +150,7 @@ Therefore:
 - [Commit Mono](https://commitmono.com) _SIL OFL_ ([view](https://www.programmingfonts.org/#commit-mono))
 - [Consolamono](http://openfontlibrary.org/en/font/consolamono) _SIL OFL_ ([view](https://www.programmingfonts.org/#consolamono))
 - [IBM Courier](https://github.com/dse/font-og-courier) _permissive_ ([view](https://www.programmingfonts.org/#courier-ibm))
-- [IBM Courier (dot)](https://github.com/dse/font-og-courier) _permissive_ ([view](https://www.programmingfonts.org/#courier-ibm-dotted))
-- [IBM Courier (slash)](https://github.com/dse/font-og-courier) _permissive_ ([view](https://www.programmingfonts.org/#courier-ibm-slashed))
 - [Courier Prime](https://quoteunquoteapps.com/courierprime) _SIL OFL_ ([view](https://www.programmingfonts.org/#courier-prime))
-- [Courier Prime Code](https://quoteunquoteapps.com/courierprime) _SIL OFL_ ([view](https://www.programmingfonts.org/#courier-prime-code))
-- [Courier Prime Sans](https://quoteunquoteapps.com/courierprime) _SIL OFL_ ([view](https://www.programmingfonts.org/#courier-prime-sans))
 - [Cousine](http://www.fontsquirrel.com/fonts/cousine) _Apache_ ([view](https://www.programmingfonts.org/#cousine))
 - [Cozette](https://github.com/slavfox/Cozette) _MIT_ ([view](https://www.programmingfonts.org/#cozette))
 - [Cutive Mono](https://fonts.google.com/specimen/Cutive+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#cutive))
@@ -164,8 +171,6 @@ Therefore:
 - [Envy Code R](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released) _SIL OFL_ ([view](https://www.programmingfonts.org/#envy-code-r))
 - [Fairfax](http://www.kreativekorp.com/software/fonts/fairfax.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax))
 - [Fairfax HD](http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-hd))
-- [Fairfax Hax HD](http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-hd-hax))
-- [Fairfax Serif](http://www.kreativekorp.com/software/fonts/fairfax.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-serif))
 - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans) _SIL OFL_ ([view](https://www.programmingfonts.org/#fantasque-sans))
 - [Fifteen](http://openfontlibrary.org/en/font/fifteen) _SIL OFL_ ([view](https://www.programmingfonts.org/#fifteen))
 - [Fira Mono](https://github.com/mozilla/Fira) _SIL OFL_ ([view](https://www.programmingfonts.org/#fira))
@@ -191,8 +196,6 @@ Therefore:
 - [IBM VGA 9x16](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_9x16) _CC BY-SA 4.0_ ([view](https://www.programmingfonts.org/#ibm-vga))
 - [Inconsolata](https://levien.com/type/myfonts/inconsolata.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata))
 - [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata-g))
-- [InconsolataGo](https://levien.com/type/myfonts/inconsolata.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata-go))
-- [Inconsolata OTF](https://levien.com/type/myfonts/inconsolata.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata-otf))
 - [Indicate Mono](https://jonastype.com/indicate-mono) _commercial_ ([view](https://www.programmingfonts.org/#indicate))
 - [Input](https://input.djr.com) _commercial_ ([view](https://www.programmingfonts.org/#input))
 - [Intel One Mono](https://github.com/intel/intel-one-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#intel-one-mono))

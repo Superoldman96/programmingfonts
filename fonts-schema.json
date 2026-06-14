@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",
 
     "patternProperties": {
@@ -63,6 +63,10 @@
                     "type": "string",
                     "enum": ["empty", "slashed", "dotted"]
                 },
+                "group": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9-]+$"
+                },
                 "variants": {
                     "oneOf": [
                         {
@@ -88,7 +92,6 @@
                 "name",
                 "rendering",
                 "style",
-                "website",
                 "year"
             ]
         }
