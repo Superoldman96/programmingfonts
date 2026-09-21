@@ -84,7 +84,7 @@ We've been able to license some commercial fonts for programmingfonts.org, but t
 To date we've been unable to find a reliable source of information or downloads for these fonts, although we know they're out there:
 
 - Cruft
-- Espresso Mono
+- Espresso Mono (from the [Espresso editor](https://espressoapp.com) - [forked here](https://github.com/properly-strawberry/espresso-mono))
 - Selectric
 - Topaz-8
 - TI92PLUS
